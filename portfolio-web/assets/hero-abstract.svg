@@ -1,0 +1,94 @@
+<svg viewBox="0 0 1600 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="46%" r="65%">
+      <stop offset="0%" stop-color="#1c2530"/>
+      <stop offset="100%" stop-color="#12161b"/>
+    </radialGradient>
+    <linearGradient id="nodeGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a7ea3"/>
+      <stop offset="100%" stop-color="#24506b"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1200" fill="url(#bgGlow)"/>
+
+  <!-- faint dot grid -->
+  <g fill="#2a323c" opacity="0.5">
+    <g id="dotRow">
+      <circle cx="0" cy="0" r="2"/>
+    </g>
+  </g>
+  <g opacity="0.35">
+    <pattern id="dots" width="48" height="48" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#3a4450"/>
+    </pattern>
+    <rect width="1600" height="1200" fill="url(#dots)"/>
+  </g>
+
+  <!-- connecting lines from center hub to three satellite nodes -->
+  <g stroke="#365269" stroke-width="2" opacity="0.8">
+    <line x1="800" y1="600" x2="420" y2="330"/>
+    <line x1="800" y1="600" x2="1180" y2="330"/>
+    <line x1="800" y1="600" x2="800" y2="920"/>
+    <line x1="420" y1="330" x2="1180" y2="330" stroke-dasharray="4 8" opacity="0.4"/>
+    <line x1="420" y1="330" x2="800" y2="920" stroke-dasharray="4 8" opacity="0.4"/>
+    <line x1="1180" y1="330" x2="800" y2="920" stroke-dasharray="4 8" opacity="0.4"/>
+  </g>
+
+  <!-- circuit corner traces -->
+  <g stroke="#2c3b46" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M 40 40 H 220 L 260 80 V 200"/>
+    <path d="M 1560 1160 H 1380 L 1340 1120 V 1000"/>
+    <path d="M 1560 60 H 1420 L 1390 90 V 220"/>
+    <path d="M 40 1140 H 180 L 210 1110 V 980"/>
+  </g>
+  <g fill="#3a4450">
+    <circle cx="260" cy="200" r="4"/>
+    <circle cx="1340" cy="1000" r="4"/>
+    <circle cx="1390" cy="220" r="4"/>
+    <circle cx="210" cy="980" r="4"/>
+  </g>
+
+  <!-- satellite hex nodes: WEB / SYS / SEC -->
+  <g font-family="'IBM Plex Mono', monospace" font-size="20" letter-spacing="2" fill="#9fb4c2" text-anchor="middle">
+
+    <g filter="url(#soft)">
+      <polygon points="420,280 464,305 464,355 420,380 376,355 376,305"
+        fill="#1a2229" stroke="#3a7ea3" stroke-width="2.5"/>
+    </g>
+    <text x="420" y="336">WEB</text>
+
+    <g filter="url(#soft)">
+      <polygon points="1180,280 1224,305 1224,355 1180,380 1136,355 1136,305"
+        fill="#1a2229" stroke="#3a7ea3" stroke-width="2.5"/>
+    </g>
+    <text x="1180" y="336">SYS</text>
+
+    <g filter="url(#soft)">
+      <polygon points="800,870 844,895 844,945 800,970 756,945 756,895"
+        fill="#1a2229" stroke="#3a7ea3" stroke-width="2.5"/>
+    </g>
+    <text x="800" y="926">SEC</text>
+  </g>
+
+  <!-- central hub hexagon with monogram -->
+  <g filter="url(#soft)">
+    <polygon points="800,470 900,522 900,626 800,678 700,626 700,522"
+      fill="url(#nodeGlow)" stroke="#b98d3e" stroke-width="3"/>
+  </g>
+  <text x="800" y="600" font-family="'Fraunces', serif" font-size="86" font-weight="600"
+    fill="#f8f7f4" text-anchor="middle">S</text>
+
+  <!-- pulse rings around hub -->
+  <g stroke="#b98d3e" fill="none" opacity="0.35">
+    <circle cx="800" cy="574" r="150"/>
+    <circle cx="800" cy="574" r="190"/>
+  </g>
+</svg>

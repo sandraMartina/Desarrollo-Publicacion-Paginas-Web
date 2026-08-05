@@ -4,19 +4,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sandra`s Web page</title>
+    <title>Sandra — Web Development · Systems · Cybersecurity</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    
-    <div>
-        <h1>So this is me</h1>
-    </div>
 
+    <!-- ============ FOLDER SCROLL-REVEAL INTRO ============ -->
+    <!-- Uses an abstract SVG graphic (assets/hero-abstract.svg) instead
+         of a photo — a network/hexagon motif tying together Web, Sys
+         and Sec. Swap the file if you ever want to use a real photo. -->
+    <section class="folder-hero" id="folderHero">
+        <div class="folder-sticky">
+            <div class="folder-title" id="folderTitle">
+                <span class="eyebrow" style="color:var(--terminal-prompt)">Hi, I'm</span>
+                <h1>Sandra</h1>
+                <p>Web Development · Systems Administration · Cybersecurity</p>
+                <div class="scroll-hint">Scroll down ↓</div>
+            </div>
+            <div class="flap flap-top" id="flapTop" style="background-image: url('assets/hero-abstract.svg');"></div>
+            <div class="flap flap-bottom" id="flapBottom" style="background-image: url('assets/hero-abstract.svg');"></div>
+        </div>
+    </section>
 
+    <!-- ============ HEADER / NAV ============ -->
+    <header class="site-header" id="title">
+        <nav class="site-nav">
+            <span class="logo">Sandra</span>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
 
+        <!-- ============ ABOUT ============ -->
+        <section id="about" class="container">
+            <span class="eyebrow">About me</span>
+            <h2 class="section-title">Actively looking for work</h2>
 
+            <div class="about-grid">
+                <div class="about-text">
+                    <!-- TODO: replace this with your own bio -->
+                    <p>
+                        [This is where your introduction goes: who you are, what draws
+                        you to tech, and what kind of role you're looking for — web
+                        development, systems administration/support, or cybersecurity.]
+                    </p>
+                    <p>
+                        [You can add a second paragraph telling your story: why you moved
+                        from ASIR into cybersecurity and now into web development, and
+                        what you're looking for in your next role.]
+                    </p>
+                </div>
+
+                <div class="terminal" aria-hidden="false">
+                    <div class="terminal-bar">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <pre class="terminal-body"><span class="prompt">$</span> whoami
+sandra — looking to join an IT team
+
+<span class="prompt">$</span> cat profile.txt
+<span class="comment"># Technical background</span>
+&gt; Higher Vocational Training in ASIR
+  (Network Systems Administration)
+&gt; Cybersecurity Bootcamp
+&gt; IFCD0110 — Web page design and
+  publishing (in progress)
+
+<span class="prompt">$</span> echo $AVAILABILITY
+Immediate</pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SKILLS ============ -->
+        <section id="skills" class="container">
+            <span class="eyebrow">Skills</span>
+            <h2 class="section-title">What I can do</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="status">In progress · IFCD0110</span>
+                    <h3>Web Development</h3>
+                    <p>Web page design and publishing: layout, styling, and best practices.</p>
+                    <ul class="tag-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Responsive design</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <span class="status">Completed · Higher Vocational</span>
+                    <h3>Systems Administration</h3>
+                    <p>Trained in ASIR: networking, servers, and infrastructure management.</p>
+                    <ul class="tag-list">
+                        <li>Networking</li>
+                        <li>Linux / Windows Server</li>
+                        <li>Virtualization</li>
+                        <li>Databases</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <span class="status">Completed · Bootcamp</span>
+                    <h3>Cybersecurity</h3>
+                    <p>Fundamentals of offensive and defensive security applied to real environments.</p>
+                    <ul class="tag-list">
+                        <li>Network security</li>
+                        <li>Vulnerability analysis</li>
+                        <li>Security best practices</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ EDUCATION ============ -->
+        <section id="education" class="container">
+            <span class="eyebrow">Background</span>
+            <h2 class="section-title">Education</h2>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="date">In progress</span>
+                    <h3>IFCD0110 — Web Page Design and Publishing</h3>
+                    <p>[School / training center] · [City]</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="date">[Year]</span>
+                    <h3>Cybersecurity Bootcamp</h3>
+                    <p>[School / academy name]</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="date">[Year]</span>
+                    <h3>Higher Vocational Training — Network Systems Administration (ASIR)</h3>
+                    <p>[School] · [City]</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CONTACT ============ -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <span class="eyebrow" style="color:var(--terminal-prompt)">Contact</span>
+                <h2 class="section-title">Let's talk</h2>
+                <p>
+                    I'm looking to join a team where I can contribute in web development,
+                    systems, or cybersecurity. Reach out — I'd love to talk.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:your-email@example.com">your-email@example.com</a>
+                    <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        Sandra — Personal page · [Year]
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
