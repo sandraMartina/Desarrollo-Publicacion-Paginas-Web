@@ -1,68 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ficha de producto de tienda online</title>
-</head>
-<!-- ============ cuerpo de la tabla ============ x
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ficha de producto de tienda online</title>
+    </head>
+    <!-- ============ cuerpo de la tabla ============ x
        
 -->
-<body>
+    <body>
+        <div>
+            <h1 style="color: #1c3f6e">Zapatillas Trail Runner x3</h1>
+            <img
+                src="assets/zapatilla.png"
+                alt="Zapatillas trail running"
+                title="Zapatillas trail running"
+                height="300px" />
 
-    <div>
-        <h1>Zapatillas Trail Runner x3</h1>
-         <img src="assets/zapatilla.png" alt="Zapatillas trail running" title="Zapatillas trail running" height="300px">
-         <span style="color: gray;">
-            <p><s>80,99€</s></p> 
-         </span>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <span style="color: gray;">
+                    <p>
+                        <s>80,99€</s>
+                    </p>
+                </span>
 
-         <span style=" color: red;">
-             <b><p >59,99€</p></b>
-         </span>
+                <span style="color: red">
+                    <b>
+                        <p>59,99€</p>
+                    </b>
+                </span>
 
+                <span
+                    style="background-color: #7a1f2b; color: antiquewhite; border-radius: 4px;">
+                    -33%</span>
+            </div>
+            <div>
+                <span>
+                    <button
+                        style="background-color: #14304f; color: aliceblue; border-radius: 4px;"
+                        onclick="window.location.href ='https://www.i-run.es/mujer/zapatillas/trail/hoka/Tecton-X-3_fiche_142215.html?v=02&utm_source=google&utm_medium=cpc&utm_content=seashopping&utm_campaign=ES-Pmax-Campagne-Promo-new&utm_id=22895466710&gad_source=1&gad_campaignid=22899635968&gbraid=0AAAAApSl_qGOtyH42m2s_KLA7ebjTjKQJ&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSqQIamIl0dRaLUwW3HpMbo7wS_Q_rvzwlaL2a7562XUpbjx5_8ZdkhoC54MQAvD_BwE'">
+                        Añadir al Carrito
+                    </button>
 
-         <span style="background-color: red; color: antiquewhite;">
-            <p>-33%</p>
-         </span>
+                    <button
+                        style="background-color: darkgoldenrod; color: antiquewhite; border-radius: 4px;">
+                        Favoritos
+                    </button>
+                </div>
 
-         <span>
-            <button style="background-color: midnightblue; color: aliceblue;" onclick="window.location.href='https://www.i-run.es/mujer/zapatillas/trail/hoka/Tecton-X-3_fiche_142215.html?v=02&utm_source=google&utm_medium=cpc&utm_content=seashopping&utm_campaign=ES-Pmax-Campagne-Promo-new&utm_id=22895466710&gad_source=1&gad_campaignid=22899635968&gbraid=0AAAAApSl_qGOtyH42m2s_KLA7ebjTjKQJ&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSqQIamIl0dRaLUwW3HpMbo7wS_Q_rvzwlaL2a7562XUpbjx5_8ZdkhoC54MQAvD_BwE'" >Añadir al Carrito</button>
-            <button style="background-color: darkgoldenrod; color: antiquewhite;" >Favoritos</button>
-         </span>
+            </span>
+        </div>
+        <br />
+        <br />
 
+        <table border="1"
+            style="width: 100%; border-collapse: collapse; margin-top: 10px">
+            <caption>
+                <h2 style="color: #1c3f6e">Caracteristicas Técnicas</h2>
+            </caption>
 
-    </div>
-    <br>
-    <br>
+            <thead
+                style="background-color: #14304f; color: aliceblue; border-collapse: collapse;margin-top: 10px;">
+                <tr>
+                    <td colspan="10">Caracteristicas</td>
+                    <td colspan="10">Detalles</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="10">Peso</td>
+                    <td colspan="10">280 g</td>
+                </tr>
+                <tr>
+                    <td colspan="10">Suela</td>
+                    <td colspan="10">Vibram antideslizante</td>
+                </tr>
+                <tr>
+                    <td colspan="10">Colores</td>
+                    <td colspan="10">Negro / Azul</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <table border="1">
-        <caption> <h2>Caracteristicas tecnicas</h2> </caption>
-
-        <thead style="background-color: darkblue; color: beige;">
-            <tr>
-                <td colspan="10">Caracteristicas</td>
-                <td colspan="10">Detalles</td>
-            </tr>
-
-        </thead>
-        <tbody>
-            
-            <tr>
-                <td colspan="10">Peso</td>
-                <td colspan="10">280 g</td>
-            </tr>
-            <tr>
-                <td colspan="10">Suela</td>
-                <td colspan="10">Vibram antideslizante</td>
-            </tr>
-            <tr>
-                <td colspan="10">Colores</td>
-                <td colspan="10">Negro / Azul</td>
-            </tr>
-        </tbody>
-        
-
-    </table>
-</body>
+    </body>
 </html>

@@ -8,39 +8,43 @@
 </head>
 
 <body>
-    <h1>Boletin de Notas</h1>
+    <h1 style="color: #1c3f6e">Boletin de Notas</h1>
 
-    <table border="1">
-        <caption>Alumno/a: Maria Lopez - 2º Trimestre</caption>
+    <table border="1" style="width: 100%; border-collapse: collapse; margin-top: 10px">
+        <caption style="text-align: left;">Alumno/a: Maria Lopez - 2º Trimestre</caption>
 
-        <thead style="background-color: darkslateblue; color: beige; width: 250px;">
+
+        <thead style="background-color: #14304f; color: aliceblue; border-collapse: collapse;margin-top: 10px;">
             <tr>
                 <td >Asignatura</td>
                 <td >Nota</td>
             </tr>
         </thead>
-        <tbody style="width: 250px;">
+        <tbody style="width: 250px; margin-left: 2px; padding-left: 2px;">
             <tr>
                 <td >Matematicas</td>
-                <td style="background-color: aqua; color: black;">8</td>
+                <td><span style="background-color: turquoise; color: black; border-radius: 4px;"> 8</span></td>
                 
             </tr>
          <tr>
             <td >Lengua</td>
-            <td style="background-color: darksalmon; color: red;" >4</td>
+            <td><span style="background-color: #7a1f2b; color: antiquewhite; border-radius: 2px;"> 4</span></td>
          </tr>
          <tr>
             <td >Ingles</td>
            
-            <td style="background-color: aqua; color: black;">7</td>
+            <td><span style="background-color: turquoise; color: black; border-radius: 4px;"> 7</span></td>
          </tr>
         </tbody>
         <tfoot>
-            <tr>
-                <td colspan="2" style="text-align: center;">Media Anual 6,3</td>
-            </tr>
-        </tfoot>
+    <tr>
+        <td colspan="8" style="background-color: gray; color: aliceblue; text-align: center;">
+            Media Anual 6,3
+        </td>
+    </tr>
+</tfoot>
     </table>
+    
 
 
         </div>
@@ -50,10 +54,12 @@
     <p>"Debe reforzar lengua durnate el próximo trimestre"</p>
 </div>
 
-<span>
+<div>
+<button style="background-color: #14304f; color: aliceblue; border-radius: 4px;" 
+type="button" onclick="window.print()"> Descargar Boletin</button>
+</div>
+    
 
-</span>
-    <button type="button" onclick="window.print()">Descargar Boletin</button>
 </body>
 
 </html>

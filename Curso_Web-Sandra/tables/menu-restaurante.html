@@ -6,12 +6,12 @@
     <title>Menú de Retaurante</title>
 </head>
 <body>
-    <table border="1">
+    <table border="1" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
             <caption>
-                <h1>Restaurante El Cantábrico</h1>
+                <h1 style="color: #1c3f6e">Restaurante El Cantábrico</h1>
             </caption>
             
-            <thead>
+            <thead style="background-color: #14304f; color: aliceblue; border-collapse: collapse;margin-top: 10px;">
                 <tr>
                     <th>Plato </th>
                     <th>Descripcion</th>
@@ -23,13 +23,18 @@
 
             <tbody>
                 <tr>
-                    <td>Fabada Asturiana <span style="background-color: coral; color: aliceblue;">Nuevo</span></td>
+                    <td>Fabada Asturiana <span style="
+                background-color: #f0c48a;
+                color: #4a3200;
+                font-size: 12px;
+                border-radius: 4px;
+              ">Nuevo</span></td>
                     <td>Receta Tradicional</td>
                     <td>14€</td>
                 </tr>
 
                 <tr>
-                    <td>Ensalada de Quino <span style="background-color: darkgreen; color: aliceblue;">Vegano</span> </td>
+                    <td>Ensalada de Quino <span style="background-color: darkgreen; color: aliceblue; font-size: 12px; border-radius: 4px;">Vegano</span> </td>
                     <td>Con aguacate y tomate</td>
                     <td>9€</td>                  
                 </tr>
@@ -45,13 +50,16 @@
         </table>
         <br>
 
-        <div>
-            <img src="assets/faba.jpg" alt="Faba" height="200px">
-            <img src="assets/ensalada-de-quinoa-facil.jpg" alt="Ensalada de Quino" height="200px">
+        <br>
+        <div style="text-align: center;">
+            <img src="assets/faba.jpg" alt="Faba" height="150px">
+            <img src="assets/ensalada-de-quinoa-facil.jpg" alt="Ensalada de Quino" height="150px">
+
+            <button type="button" style="background-color: darkblue; color: antiquewhite; border-radius: 10px; align-content: center;">Reservar Mesa</button>
+
         </div>
         <br>
-         <button type="button" style="background-color: darkblue; color: antiquewhite; border-radius: 10px;">Reservar Mesa</button>
-
+         
 
 </body>
 </html>
