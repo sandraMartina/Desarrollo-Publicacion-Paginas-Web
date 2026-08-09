@@ -7,37 +7,39 @@
     <title>C.D GIJON ATLETICO</title>
 </head>
 
-<body>
+<body id="inicio">
 
     <h1>C.D. Gijón Atlético</h1>
-    <p><i>Fundado en 1985 - Futbol Amateur en Gijón, Asturias</i></p>
+    <p><i>Fundado en 1985 • Futbol Amateur en Gijón, Asturias</i></p>
 
 
-    <nav class="index-nav" id="menu">
-        <a href="#news1">Inicio</a>&nbsp;
-        <a href="#news2">Historia</a>&nbsp;
-        <a href="#news3">Plantilla</a>&nbsp;
-        <a href="#news3">Calendario</a>&nbsp;
-        <a href="#news3">Galeria</a>&nbsp;
-        <a href="#news3">Multimedia</a>&nbsp;
-        <a href="#news3">Cómo llegar</a>&nbsp;
-        <a href="#news3">Enlaces</a>&nbsp;
+   <nav class="index-nav" id="menu">
+        <a href="index.html" onclick="alert('Estas en la página de Inicio!'); return false;">Inicio</a>&nbsp;|
+        <a href="assets/club/historia.html">Historia</a>&nbsp;|
+        <a href="assets/equipo/plantilla.html">Plantilla</a>&nbsp;|
+        <a href="assets/equipo/calendario.html">Calendario</a>&nbsp;|
+        <a href="assets/equipo/multimedia/galeria.html">Galeria</a>&nbsp;|
+        <a href="assets/equipo/multimedia/multimedia.html">Multimedia</a>&nbsp;|
+        <a href="assets/club/ubicacion.html">Cómo llegar</a>&nbsp;|
+        <a href="enlaces.html">Enlaces</a>&nbsp;
 
     </nav>
+    <br>
 
-    <nav class="index-nav" id="menu">
+    <nav class="index-nav" id="menu2">
         ir a:
-        <a href="#news1">Bienvenida</a>&nbsp;
-        <a href="#news2">Datos del club</a>&nbsp;
-        <a href="#news3">Video de Bienvenida</a>&nbsp;
-        <a href="#news3">Ultimas noticias</a>&nbsp;
+        <a href="#Bienvenida">Bienvenida</a>&nbsp;•
+        <a href="#cifras">Datos del club</a>&nbsp;•
+        <a href="#video">Video de Bienvenida</a>&nbsp;•
+        <a href="#noticias">Ultimas noticias</a>&nbsp;
     </nav>
 
+    <br>
     <div>
         <img src="assets/imagenes/estadio.jpg" alt="Estadio Gijon" title="Estadio Gijon" width="100%" height="100%">
     </div>
 
-    <div>
+    <div id="Bienvenida">
         <h2>Bienvenidos al club</h2>
         <p>El <b>C.D. Gijón Atlético</b> es un club de futbol amateur nacido en el barrio de El Llano, en Gijón. Desde
             nuestros inicios hemos apostado por la <b>Cantera</b><br>
@@ -54,22 +56,23 @@
             <button style="background-color: darkgray; color: black; border-radius: 4px;" type="button"> Hazte
                 Socio</button>
         </div>
-        <h2>El Club de cifras</h2>
+
+        <div id="cifras">
+             <h2>El Club de cifras</h2>
         <ul>
             <li>Fundacion: 1985</li>
             <li>Categoría Actual: Tercer división RFEF</li>
             <li>Socios: Más de 600</li>
             <li>Equipos Federados: 12(Desde Benjamín hasta Senior)</li>
         </ul>
-
-    </div>
-    <div>
+ 
+    <div id="video">
         <h2>Video de Bienvenida</h2>
         <p>Un breve saludo de la directiva para los nuevos socios y socias</p>
         <video controls src="assets/video/Un club con alma.mp4" height="300px"></video>
 
     </div>
-    <div>
+    <div id="noticias">
         <h2>Ultimas Noticias</h2>
         <h4><b>El equipo firma su mejor arranque de liga en una década</b></h4>
         <p>
@@ -82,10 +85,16 @@
 
     </div>
 
-    <div>
-            <a href="#lista">
+    <div style="display: flex;gap: 30px;">
+        
+            <a href="#inicio">
                 <p>Ir al inicio</p>
             </a>
+
+            <a href="assets/club/historia.html">
+                <p>Conoce nuestra historia</p>
+            </a>
+
         </div>
 
 
