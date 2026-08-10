@@ -1,0 +1,31 @@
+
+/* Since we dont have any other option with h1, h2 and so on
+i called all my h1, and start write it down the styles */
+
+h1 {
+    color: teal;
+}
+
+h2 {
+    color: blue;
+}
+
+
+h3 {
+    color: darkslateblue;
+}
+
+
+h4 {
+    color: darkred;
+}
+
+
+h5 {
+    color: darkgoldenrod;
+}
+
+
+h6 {
+    color:bisque ;
+}

@@ -1,0 +1,27 @@
+
+body {
+    background-color: lightgray;
+}
+
+
+
+.text1 {
+    background-color: lightgray;
+}
+
+p {
+    background-color: darkgray; 
+}
+
+#correo {
+    background-color: aliceblue;
+    text-align: end;
+}
+
+#idioma {
+    background-color:gray;
+}
+
+h2 {
+    background-color: darkslategrey;
+}

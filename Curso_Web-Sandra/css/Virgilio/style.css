@@ -1,0 +1,45 @@
+
+
+#head {
+    text-align: center;
+    margin: auto;
+   
+}
+
+/* */
+#head p {
+  
+    margin: auto;
+    text-align: left;
+}
+
+
+
+
+body {
+    background-color: rgb(252, 192, 118);
+}
+
+#mother {
+    display: flex;
+    justify-content: flex-start;
+
+    
+}
+
+#first {
+    font-size: 34px;
+    line-height: 80px;
+
+}
+
+
+#second {
+
+    font-size: 34px;
+    text-align: end;
+    color: white;
+    line-height: 80px;
+
+
+}

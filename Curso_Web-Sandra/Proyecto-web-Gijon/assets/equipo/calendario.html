@@ -1,127 +1,134 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calendario y Competición</title>
-  </head>
-  <body>
 
-    <div>
-      <h1>Calendario y Competición</h1>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendario y Competición</title>
+</head>
 
-    <nav class="index-nav" id="menu">
-      <a
-        href="../../index.html">Inicio</a
-      >&nbsp;| <a href="../../assets/club/historia.html">Historia</a>&nbsp;|
-      <a href="../equipo/plantilla.html">Plantilla</a>&nbsp;|
-      <a
-href="calendario.html"
-        onclick="
+<body>
+  <header>
+    <div id="inicio" style="color:rgb(205, 8, 8); ">
+    
+     <img src="../imagenes/banner2.png" alt="Real Sporting de Gijón banner" title="Real Sporting de Gijón banner"
+            width="100%" height="200px">
+            <h1>Calendario y Competición</h1>
+  </div>
+  <br>
+
+
+  <nav class="index-nav" id="menu">
+    <a href="../../index.html">Inicio</a>&nbsp;| <a href="../../assets/club/historia.html">Historia</a>&nbsp;|
+    <a href="../equipo/plantilla.html">Plantilla</a>&nbsp;|
+    <a href="calendario.html" onclick="
           alert('Estas en la página de Calendario!');
           return false;
-        "
-        >Calendario</a
-      >&nbsp;| <a href="../equipo/multimedia/galeria.html">Galeria</a>&nbsp;|
-      <a href="../equipo/multimedia/multimedia.html">Multimedia</a>&nbsp;|
-      <a href="#news3">Cómo llegar</a>&nbsp;| <a href="#news3">Enlaces</a>&nbsp;
-    </nav>
-    <br />
+        ">Calendario</a>&nbsp;| <a href="../equipo/multimedia/galeria.html">Galeria</a>&nbsp;|
+    <a href="../equipo/multimedia/multimedia.html">Multimedia</a>&nbsp;|
+    <a href="#news3">Cómo llegar</a>&nbsp;| <a href="#news3">Enlaces</a>&nbsp;
+  </nav>
+  <br />
 
-    <nav class="index-nav" id="menu2">
-      ir a:
-      <a href="#resultados">Jornadas jugadas</a>&nbsp;•
-      <a href="#ascenso">Fase de ascenso</a>&nbsp;•
-      <a href="#federacion">Copa Federación</a>&nbsp;•
-      <a href="#jornadas">Próximas jornadas</a>&nbsp;
-      <a href="#derbi">Cuenta atrás</a>&nbsp;
-    </nav>
+  <nav class="index-nav" id="menu2">
+    ir a:
+    <a href="#resultados">Jornadas jugadas</a>&nbsp;•
+    <a href="#ascenso">Fase de ascenso</a>&nbsp;•
+    <a href="#federacion">Copa Federación</a>&nbsp;•
+    <a href="#jornadas">Próximas jornadas</a>&nbsp;
+    <a href="#derbi">Cuenta atrás</a>&nbsp;
+  </nav>
 
-    <br>
+
+  </header>
+
+
+  
+  <br>
+  <div>
+    <p>
+      Consulta aquí toda la información sobre <b>los resultados,</b> la
+      <i>competición</i> y las <u>próximas citas</u> del primer equipo.
+    </p>
+  </div>
+
+
+  <div id="resultados">
+    <h3>Resultados de las jornadas jugadas</h3>
+
+    <ol>
+      <li>Victoria 2-0 vs. CD Roces</li>
+      <li>Empate 1-1 vs. UP Langreo</li>
+      <li>Victoria 3-1 vs. Real Avilés</li>
+    </ol>
+  </div>
+
+  <div id="ascenso">
+    <h3>Grupos de la fase de ascenso</h3>
+    <ol type="A">
+      <li>Grupo A – Occidente</li>
+      <li>Grupo B – Centro</li>
+      <li>Grupo C – Oriente</li>
+    </ol>
+  </div>
+
+  <div id="federacion">
+    <h3>Fases de la Copa Federación</h3>
+    <ol type="I">
+      <li>Dieciseisavos de final</li>
+      <li>Octavos de final</li>
+      <li>Cuartos de final</li>
+      <li>Semifinal</li>
+    </ol>
+  </div>
+
+  <div id="jornadas">
+    <h3>Próximas jornadas</h3>
+    <p>La numeración continúa desde la jornada 3, ya jugada:</p>
+    <ol start="3">
+      <li>vs. CD Roces (jornada 3)</li>
+      <li>vs. UP Langreo (jornada 4)</li>
+      <li>vs. Real Avilés (jornada 5)</li>
+    </ol>
+  </div>
+
+  <div id="derbi">
+    <h3>Cuenta atrás para el derbi</h3>
+    <ol start="3" reversed>
+      <li>Entrenamiento táctico</li>
+      <li>Rueda de prensa del entrenador</li>
+      <li>Día del partido</li>
+    </ol>
     <div>
-          <p>
-        Consulta aquí toda la información sobre <b>los resultados,</b> la
-        <i>competición</i> y las <u>próximas citas</u> del primer equipo.
-      </p>
+      <button type="button" onclick="window.print()">
+        Descargar calendario en pdf
+      </button>
     </div>
-    
+  </div>
 
-    <div id="resultados">
-      <h3>Resultados de las jornadas jugadas</h3>
+  <div id="normas">
+    <h3>Normas para asistir al campo</h3>
+    <ul>
+      <li>Llegar con 30 minutos de antelación</li>
+      <li>Acceso por la puerta principal</li>
+      <li>No se
+        permite la entrada de bengalas</li>
+    </ul>
 
-      <ol>
-        <li>Victoria 2-0 vs. CD Roces</li>
-        <li>Empate 1-1 vs. UP Langreo</li>
-        <li>Victoria 3-1 vs. Real Avilés</li>
-      </ol>
-    </div>
-
-    <div id="ascenso">
-      <h3>Grupos de la fase de ascenso</h3>
-      <ol type="A">
-        <li>Grupo A – Occidente</li>
-        <li>Grupo B – Centro</li>
-        <li>Grupo C – Oriente</li>
-      </ol>
-    </div>
-
-    <div id="federacion">
-      <h3>Fases de la Copa Federación</h3>
-      <ol type="I">
-        <li>Dieciseisavos de final</li>
-        <li>Octavos de final</li>
-        <li>Cuartos de final</li>
-        <li>Semifinal</li>
-      </ol>
-    </div>
-
-    <div id="jornadas">
-      <h3>Próximas jornadas</h3>
-      <p>La numeración continúa desde la jornada 3, ya jugada:</p>
-      <ol start="3">
-        <li>vs. CD Roces (jornada 3)</li>
-        <li>vs. UP Langreo (jornada 4)</li>
-        <li>vs. Real Avilés (jornada 5)</li>
-      </ol>
-    </div>
-
-    <div id="derbi">
-      <h3>Cuenta atrás para el derbi</h3>
-      <ol start="3" reversed>
-        <li>Entrenamiento táctico</li>
-        <li>Rueda de prensa del entrenador</li>
-        <li>Día del partido</li>
-      </ol>
-      <div>
-        <button type="button" onclick="window.print()">
-          Descargar calendario en pdf
-        </button>
-      </div>
-    </div>
-
-    <div id="normas">
-        <h3>Normas para asistir al campo</h3>
-        <ul>
-            <li>Llegar con 30 minutos de antelación</li>
-            <li>Acceso por la puerta principal</li>
-            <li>No se
-    permite la entrada de bengalas</li>
-        </ul>
-
-    </div>
+  </div>
 
 
 
-<div style="display: flex;gap: 10px;">
-            <a href="#menu">
-                <p>Volver arriba</p>
-            </a>
-            <a href="../equipo/multimedia/galeria.html">
-                <p>Ver la galeria →</p>
-            </a>
-        </div>
+  <div style="display: flex;gap: 10px;">
+    <a href="#inicio">
+      <p>Volver arriba</p>
+    </a>
+    <a href="../equipo/multimedia/galeria.html">
+      <p>Ver la galeria →</p>
+    </a>
+  </div>
 
 
-  </body>
+</body>
+
 </html>
