@@ -1,45 +1,32 @@
 
-
-#head {
-    text-align: center;
-    margin: auto;
-   
-}
-
-/* */
-#head p {
-  
-    margin: auto;
-    text-align: left;
-}
-
-
-
-
+/* TITLE */
 body {
-    background-color: rgb(252, 192, 118);
-}
-
-#mother {
-    display: flex;
-    justify-content: flex-start;
-
-    
-}
-
-#first {
-    font-size: 34px;
-    line-height: 80px;
-
+    background-color: rgb(238, 176, 91);
 }
 
 
-#second {
-
-    font-size: 34px;
-    text-align: end;
-    color: white;
-    line-height: 80px;
+.virgilio {
+    text-align: center;
+}
 
 
+
+
+.citas {
+    width: 100%;
+}
+
+/* EACH QUOTE */
+
+
+
+
+.first {
+    font-size: 40px;
+}
+
+.second {
+    font-size: 37px;
+    text-align: right;
+    color: aliceblue;
 }

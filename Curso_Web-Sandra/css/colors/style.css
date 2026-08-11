@@ -1,0 +1,54 @@
+
+/* after named the "tr" by class identification i used them 
+by adding separately the colors  */
+.head {
+    color: teal
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+
+.pur {
+    color: purple;
+}
+
+.olive {
+    color: olive;
+}
+
+.fuc {
+    color: fuchsia;
+}
+
+.green {
+    color: green;
+}
+
+
+
+/* after identify the columns i used them separately like before and make the changes 
+ */
+
+.f {
+    background-color: darkred;
+}
+
+
+
+.s {
+    background-color: olive;
+}
+
+.t {
+    background-color: blueviolet;
+}
