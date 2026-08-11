@@ -1,0 +1,40 @@
+
+
+.title {
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.head {
+    text-align: center;
+}
+
+.follow {
+    background-color: pink;
+
+}
+
+.reviews {
+    background-color: lightgray;
+    
+   
+}
+
+.principal {
+padding: 1px;
+}
+
+.opiniones {
+    font-size: 20px;
+    font-weight: bold;
+    padding: auto;
+    margin-bottom:;
+
+}
+
+
+.footer {
+    font-size: small;
+    text-align: center;
+    font-style: italic;
+}

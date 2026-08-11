@@ -1,0 +1,17 @@
+
+
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+
+    font-style: italic;
+
+    font-variant: normal;
+
+    font-weight: bold;
+
+    /*font-size the em, double the size of the  */
+
+    font-size: 1em;
+    
+}
