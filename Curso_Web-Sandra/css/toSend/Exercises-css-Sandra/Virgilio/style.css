@@ -1,0 +1,32 @@
+
+/* TITLE */
+body {
+    background-color: rgb(238, 176, 91);
+}
+
+
+.virgilio {
+    text-align: center;
+}
+
+
+
+
+.citas {
+    width: 100%;
+}
+
+/* EACH QUOTE */
+
+
+
+
+.first {
+    font-size: 40px;
+}
+
+.second {
+    font-size: 37px;
+    text-align: right;
+    color: aliceblue;
+}

@@ -1,0 +1,46 @@
+
+
+body {
+    background-color: rgb(128, 255, 128);
+
+}
+
+
+.title {
+    color: red;
+}
+
+.header {
+    color:darkred
+}
+
+.datos {
+    color: green;
+}
+
+.metadatos {
+    color: navy;
+}
+
+.descripcion-libro p{
+    color: navy;
+}
+
+.html {
+    background-color: black;
+    color: white;
+}
+
+
+.html-css {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.contenido p{
+color: navy;
+}
+
+.contenido ul{
+color: navy;
+}
