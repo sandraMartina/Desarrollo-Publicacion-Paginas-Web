@@ -9,26 +9,37 @@
     text-align: center;
 }
 
+
+
+
+.principal {
+
+width: 100%;
+}
+
+
+/* Were adding a space between the content and the item, this happend with padding
+if we add two parameter it will do it in the height width and you can add more*/
+
 .follow {
-    background-color: pink;
+    background-color: #e46e74;
+    padding: 15px 15px;
 
 }
+
 
 .reviews {
     background-color: lightgray;
-    
+    padding: 20px;    
+  
    
 }
 
-.principal {
-padding: 1px;
-}
+
 
 .opiniones {
     font-size: 20px;
     font-weight: bold;
-    padding: auto;
-    margin-bottom:;
 
 }
 

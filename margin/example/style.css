@@ -1,0 +1,38 @@
+
+
+
+.first {
+    background-color: aqua;
+    /* we add the three values, for the values in the outside  */
+    margin: 0px 90px 100px ;
+
+
+     /* when we add the from the inside values  */
+     padding: 30px;
+
+
+     /*  adding border
+   
+     But before adding border with, we need to first add border
+     Solid is the most common */
+      border-style:dotted;
+
+       /* Now that i already put the border, i can add the pixeles that i want
+         */
+
+         border-width: 15px;
+
+         /* we can change the color of the border 
+         */
+            border-color: burlywood;
+
+
+}
+
+
+
+.second {
+    background-color: lightslategray;
+    color: beige;
+    margin: auto;
+}
