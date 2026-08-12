@@ -1,5 +1,26 @@
 
 
 .principal {
-    width: 100%;
+    width: 80%;
+    border-style: solid;
+    border-color: aliceblue;
+
+}
+
+
+body {
+    background-color: #6F3B37 ;
+    
+}
+
+.head {
+    text-align: center;
+    
+    background-color: #6F3749;
+}
+
+
+
+.capitalismo h2{
+    background-color: aliceblue;
 }
