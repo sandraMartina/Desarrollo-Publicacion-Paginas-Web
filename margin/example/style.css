@@ -35,4 +35,9 @@
     background-color: lightslategray;
     color: beige;
     margin: auto;
+
+     /* we can add all the borders in one command but it has order 1. width, 2 style and 3 color
+         */
+
+
 }
