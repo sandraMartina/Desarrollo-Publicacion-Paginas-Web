@@ -1,9 +1,10 @@
 
 
 .principal {
-    width: 80%;
+    width: 90%;
     border-style: solid;
     border-color: aliceblue;
+    margin: auto;
 
 }
 
