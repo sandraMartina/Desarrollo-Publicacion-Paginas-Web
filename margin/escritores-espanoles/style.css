@@ -1,74 +1,122 @@
 
+
+/* ============================================
+   RESET — kills default browser margin/padding
+   on every element (h1, h2, h3, p all have their
+   own built-in margin by default). Without this,
+   your custom spacing fights with invisible
+   browser defaults — that's the "extra space I
+   didn't ask for" bug.
+   ============================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     width: 90%;
     margin: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
 .container {
     border-style: solid;
     border-color: red;
-    
 }
 
 .title {
     background-color: red;
     color: aliceblue;
-    margin: 10px;
+    padding: 10px;      /* was margin: 10px — padding keeps the red block itself sized around the text, margin would push the block away from siblings instead */
 }
 
-.siglo18{
+/* ===== Section wrapper (pink block) ===== */
+.siglo18,
+.siglo19 {
     background-color: pink;
     width: 89%;
-    margin: auto;
-    padding: 10px;
+    margin: 20px auto;   /* space ABOVE/BELOW this section, centered horizontally */
+    padding: 10px;       /* space INSIDE the pink box, between its edge and its content */
 }
 
-.fernan {
+/* ===== Section heading label (red bar) ===== */
+.escritores {
+    background-color: red;
+    color: aliceblue;
+    padding: 8px 12px;   /* was margin: 0% 0% (did nothing) — padding gives the text room inside the red bar */
+    margin-bottom: 16px; /* gap pushing the first card below it away */
+}
+
+/* ===== Individual writer card (white box) ===== */
+.fernan,
+.autor-b,
+.autor-p {
     background-color: aliceblue;
     width: 88%;
-    margin: 20px auto;
-    padding: 15px;
-     
+    margin: 1px auto 20px auto;
+    /* shorthand order = top | right&left | bottom
+       top: 1px      <- this is your "1px from the top" request
+       right/left: auto <- centers the box horizontally
+       bottom: 20px  <- gap before the next card */
+    padding: 15px 20px;
+    /* top&bottom: 15px, left&right: 20px <- this is your "space on the sides" request */
+}
+
+.fernan:last-child,
+.autor-p:last-child {
+    margin-bottom: 0;   /* no trailing gap after the very last card */
+}
+
+.name {
+    background-color: red;
+    color: white;
+    padding: 8px 15px;   /* text breathing room inside the little red name tag */
+    margin-bottom: 12px; /* gap between the name tag and the paragraph text below it */
+    display: inline-block;
 }
 
 .changes {
-    
-    padding: auto;
-    margin:0% auto;
     display: flex;
     align-items: center;
     gap: 25px;
-  
-
+    /* padding: auto was here before — "auto" is NOT a valid padding value,
+       this was silently ignored by the browser and did nothing.
+       gap already handles spacing between the two flex children,
+       so no padding/margin needed here at all. */
 }
 
-
-
-.name {
-     width: 88%;
-    margin: 20px auto;
-    padding: 15px;
-   background-color: red;
-   color: white;
-   
+.changes p {
+    margin-bottom: 10px;  /* space between paragraphs so they don't run together */
+    line-height: 1.5;
 }
 
+.changes p:last-child {
+    margin-bottom: 0;
+}
+
+.img-box {
+    flex-shrink: 0;
+    text-align: center;
+}
 
 .img {
     width: 140px;
     height: 150px;
-    display: flex; justify-content: center;
-    
+    object-fit: cover;
+    display: block;
+    margin-bottom: 6px;   /* gap between the photo and its caption */
+}
+
+.img-desc {
+    font-size: 13px;
+    font-style: italic;
 }
 
 
-.escritores {
-     background-color: red;
-    color: aliceblue;
-    margin: 0% 0%;
-    padding: 4px;
-    
-    
-}
+
+
+
+
+
+
