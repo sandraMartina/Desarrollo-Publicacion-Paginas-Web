@@ -1,11 +1,25 @@
 
 
+.head {
+    text-align: center;
+    background-color: #7c525f;
+    width: 95%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.data {
+    color: aliceblue;
+}
+
+
+
 .principal {
-    width: 90%;
+    width: 95%;
     border-style: solid;
     border-color: aliceblue;
-    margin: auto;
-
+    margin: 15px auto;
+    padding: 5px;
 }
 
 
@@ -14,14 +28,77 @@ body {
     
 }
 
-.head {
-    text-align: center;
-    
-    background-color: #6F3749;
+
+.title {
+    background-color: aliceblue;
 }
 
 
+/*
 
-.capitalismo h2{
-    background-color: aliceblue;
+.capitalismo {
+     
+    background-color: #be8d9c;
+    margin: 15px auto;
+    padding: 0%;
+
+
+}
+
+.politica {
+    background-color: #be8d9c;
+    margin:  15px auto;
+    padding: 0%;    
+   
+
+}
+
+.progreso{
+    background-color: #be8d9c;
+    padding: 15px auto;
+   
+
+}
+*/
+
+/* i was doin it like indiviual, but then i search it on chatgp he told me that this is better */
+
+
+.capitalismo, 
+.politica,   
+.progreso
+
+{
+     
+    background-color: #be8d9c;
+}
+
+
+.capi,
+.poli,
+.progre {
+    
+    margin:  1px auto;
+    padding: 4px 90px;
+    
+}
+
+.capi p,
+.poli p,
+.progre p {
+      border: 5px solid #3a1e27;
+    color: azure;
+    margin: 10px 0;
+   
+}
+
+
+footer {
+    width: 95%;
+    margin: auto;
+    border-top-style: solid;
+    background-color: #be8d9c;
+    font-size:smaller;  
+    
+
 }

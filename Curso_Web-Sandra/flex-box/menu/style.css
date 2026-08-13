@@ -1,0 +1,15 @@
+
+
+.container {
+    background-color: sienna;
+    display: flex; justify-content: space-between;
+    padding: 3%;
+}
+
+.inicio {
+    display: flex; font: 500;
+}
+
+a {
+    color: aliceblue;
+}

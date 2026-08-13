@@ -1,0 +1,74 @@
+
+body {
+    width: 90%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.container {
+    border-style: solid;
+    border-color: red;
+    
+}
+
+.title {
+    background-color: red;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.siglo18{
+    background-color: pink;
+    width: 89%;
+    margin: auto;
+    padding: 10px;
+}
+
+.fernan {
+    background-color: aliceblue;
+    width: 88%;
+    margin: 20px auto;
+    padding: 15px;
+     
+}
+
+.changes {
+    
+    padding: auto;
+    margin:0% auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  
+
+}
+
+
+
+.name {
+     width: 88%;
+    margin: 20px auto;
+    padding: 15px;
+   background-color: red;
+   color: white;
+   
+}
+
+
+.img {
+    width: 140px;
+    height: 150px;
+    display: flex; justify-content: center;
+    
+}
+
+
+.escritores {
+     background-color: red;
+    color: aliceblue;
+    margin: 0% 0%;
+    padding: 4px;
+    
+    
+}
