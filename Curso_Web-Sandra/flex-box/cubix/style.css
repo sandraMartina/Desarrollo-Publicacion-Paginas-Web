@@ -98,6 +98,7 @@
     display: flex;
     justify-content: space-around;
     margin: 0px 0px 50px;
+    border-top: 5px solid rgb(156, 131, 98);
 
 }
 
@@ -105,7 +106,9 @@
     color: dimgrey;
     
 }
-
+.text-final p{
+    margin: 9px 1px;
+}
 
 .text-final h3{
     color: white
