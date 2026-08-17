@@ -1,0 +1,15 @@
+
+
+.logo {
+    height: 200px;
+}
+
+figure{
+    display: flex;
+}
+
+.img-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
