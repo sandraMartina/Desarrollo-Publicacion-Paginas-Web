@@ -1,0 +1,34 @@
+
+
+.container {
+     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.independiente {
+    display: flex; flex-direction: column;
+    align-items: center;
+  
+}
+
+
+/* In this one, like i said before, well in other lines code, 
+to reuse the class by joing them */
+
+.img-v, .img-css, .g {
+    height: 100px;
+   
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .line {
+    padding: 1px;
+    background-color: blue;
+ }

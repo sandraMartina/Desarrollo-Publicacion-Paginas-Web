@@ -1,0 +1,69 @@
+/*
+I was traying to many ways
+
+*/
+body {
+
+    border-style: solid;
+    border-color: yellow;
+    padding: 10px;
+}
+
+.title {
+    background-color: yellow;
+    margin: 0%;
+    text-align: center;
+}
+
+.elements {
+    display: flex;
+}
+
+
+
+
+
+.era {
+   
+    background-color: yellow;
+    padding: 10px;
+    margin: 0%;
+    
+
+}
+
+.era-title {
+    background-color: darkorange;
+    margin: 0%;
+    color: brown;
+}
+
+.era-events {
+    width: 30%;
+    display: flex;
+    margin: 0%;
+    margin: 0%;
+    border: 3px solid darkorange;
+}
+
+.event {
+    padding: 5px;
+   
+   
+    
+}
+
+
+.event-year{
+    background-color: orangered;
+    color: aliceblue;
+    margin: 0%;
+    
+
+}
+
+.event-text {
+    margin: 0%;
+     border: solid 3px rgba(255, 115, 0, 0.74);
+    padding: 1px;
+}
