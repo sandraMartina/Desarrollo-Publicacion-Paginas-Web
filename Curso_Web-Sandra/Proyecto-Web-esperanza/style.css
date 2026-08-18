@@ -67,17 +67,35 @@
     border-bottom: 3px solid white;
 }
 
+.refugio{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0;
 
+}
+
+/* NEW*/
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
 
 .fig-img{
-    height: 100px;                     /*  Width---> ANCHO*/
+    flex: 2 1 500px;   /* main image takes more space NEW*/
+    height: auto;                     /*  Width---> ANCHO*/
 
 }
 
 .img-r{
-   flex-shrink: 0; /* keeps image div from stretching */
-
+  /* flex-shrink: 0;  keeps image div from stretching */
+  width: 100%;
+    height: 400px;         /* fixed height so it never gets huge TO HERE THE CHANGE MADE THE IMAGE GO WIDTH */
+    object-fit: cover;     /* crops nicely instead of stretching */
+    border-radius: 15px;
    
 
 }
@@ -89,13 +107,7 @@
 }
 
 
-.refugio{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-   
 
-}
 
 
 
@@ -103,13 +115,18 @@
     display: flex;
     flex-direction: column;
     margin: 0px;
+    /* NEW ADD*/
+    flex: 1 1 320px;   /* sidebar column, wraps below on small screens  I HAVE TO TOUCH IT*/
+    gap: 15px;  
+
     
 }
 
 .history, .adopcion, .voluntariado{
     display: flex;
     justify-content: space-between;
-    padding: 5%;
+    padding: 1px ;
+    border-bottom: 1px solid lightgray;
     
 }
 
