@@ -1,34 +1,52 @@
 
+ body{
+     margin: 0;
+     background-color: #f2f2f2;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ }
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 90%;
-    margin: auto;
+    margin: 60px auto;
+    flex-wrap: wrap; /* the thing can drop to next row on small screens */
+    /*box-shadow: 0 6px 18px rgba(0,0,0,0.12);  adding the shadow to the boxes */
     
 }
 
-.basic, .standard{
-    display: flex; flex-direction: column;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.basic, .standard, .expanded{
+    display: flex; 
+    flex-direction: column;
     font-size: x-large;
-    
     margin: 40px;
+    width: 480px;
+    
   
 }
 
-.first h1, h3, .price{
+
+.first h1, .first h3 .price{
     text-align: center;
     color: darkblue;
     margin: 0 30px 0px;
     
 }
 
-.firts-standard h1, h3, .price{
+
+.firts-standard h1, .firts-standard h3, .price-standard{
     text-align: center;
     color: white;
     margin: 0 30px 0px;
     
+}
+
+.first-expanded h1, h3, .price{
+    text-align: center;
+    color: darkblue;
+    margin: 0 30px 0px;
+
 }
 
 .standard{
@@ -46,7 +64,7 @@
 
 .price-standard{
     font-size: xx-large;
-    color: rgb(89, 139, 123);
+    color: rgb(131, 203, 180);
     font-weight: 800;
 
 }

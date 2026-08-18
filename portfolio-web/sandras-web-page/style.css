@@ -1,0 +1,55 @@
+
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", Inter, sans-serif;
+    background: #0e0e12;
+    color: #f4f4f2;
+}
+
+
+
+
+.hero-stage{
+    height: 300vh;
+    position: relative;
+}
+
+.hero-pin{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-img{
+    width: 30vw;
+    max-width: 340px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 24px;
+    will-change: trasform;
+}
+
+.hero-caption{
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.hero-caption h1{
+   font-size: clamp(1.8rem, 5vw, 3rem);
+   margin: 0;
+}
+
+.hero-caption p{
+   color: #9a9aa4;
+   margin: .5rem 0 0;
+}

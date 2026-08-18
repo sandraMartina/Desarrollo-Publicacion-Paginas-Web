@@ -2,14 +2,105 @@
 
 .logo {
     height: 200px;
+    object-fit: contain;
+
+}
+.banner{
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
 }
 
 figure{
     display: flex;
+    
+}
+
+figcaption {
+    align-self: center;
+    font-family: cursive;
+    font-size: x-large;
+    color: #5c4545;
+    
 }
 
 .img-content{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+    padding: 20px;
+    background-color: green;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    height:20px;
+    padding:0  0px 6px;
+    border-bottom: 3px solid white;
+}
+
+
+.img-r{
+    display: block;
+    height: 300px;
+    width: 800px;
+}
+
+.fig-img{
+    position: relative;
+    width: fit-content;
+    margin: 0;
+}
+
+.refugio{
+    display: flex;
+
+}
+
+.refugio-e{
+    position: absolute;
+    bottom: 40px;
+    background-color: bisque;
+    font-size: 20px;
+}
+
+.instalaciones{
+    position: absolute;
+    bottom: 10px;
+    background-color: bisque;
+}
+
+.sidebar{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    
+}
+
+.history{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.history-text{
+    
+    
+}
+
+.equipoV{
+    height: 150px;
 }
