@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Refugio Esperanza</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
 <body>
 
@@ -18,7 +19,7 @@
 
         <nav class="nav-menu">
             <a class="active" href="index.html" onclick="  alert('Estas en la página de Inicio!');  return false;">INICIO</a> 
-            <a href="">HISTORIA</a> 
+            <a href="quienes-somos/historia.html">HISTORIA</a> 
             <a href="">EQUIPO</a> 
             <a href="">ANIMALES</a> 
             <a href="">EVENTOS</a> 
@@ -30,13 +31,20 @@
     </header>    
 
     <section class="refugio">
-            <div>
-                <figure class="fig-img">
-                    <img class="img-r" src="assets/imagenes/refugio.jpg" alt="Refugio la Esperanza" title="Refugio la Esperanza">
-                    <figcaption class="refugio-e">Refugio Esperanza</figcaption>
-                    <figcaption class="instalaciones">Instalaciones del Camino de la Huerta Gijón</figcaption>
-                </figure>
-            </div>
+            <div class="fig-img">
+                    <figure >
+                        <img class="img-r" src="assets/imagenes/refugio.jpg" alt="Refugio la Esperanza" title="Refugio la Esperanza">
+                    </figure>
+
+                    <div class="comunicacion">
+                            <h3>REFUGIO ESPERANZA</h3>
+                            <h1>Bienvenidos al refugio: rescate, cuidado y adopción responsable</h1>
+                            <span class="icon">
+                                    <p >Equipo de comunicación</p>   
+                                    <i class="fa-solid fa-comment"> 12</i>                                     
+                            </span>
+                    </div>
+            </div>           
 
             <aside class="sidebar">
                 <h2>MÁS HISTORIAS</h2>
@@ -48,19 +56,105 @@
                                     <span>
                                         <h4>15 años cuidando animales en Gijón</h4>
                                     </span>
+                                    <span class="icon">
+                                        <p >Marta Suárez</p>   
+                                        <i class="fa-solid fa-comment"> 45</i>                                     
+                                    </span>
+                            </div> 
+                            <div class="">
+                                <img class="equipoV" src="assets/imagenes/Equipo-Veterinaria.jpeg" alt="Equipo Veterinaria" title="Equipo Veterinaria">
+                            </div>                    
+                    </div>
+
+                    <div class="adopcion">
+                            <div class="adopcion-text">
                                     <span>
-                                        <p>Marta Suárez</p>
+                                        <h2>Adopción</h2>
+                                    </span>
+                                    <span>
+                                        <h4>84 adopciones completadas este año</h4>
+                                    </span>
+                                    <span class="icon">
+                                        <p>Equipo Esperanza</p>
+                                        <i class="fa-solid fa-comment"> 12</i>   
                                     </span>
                             </div> 
                             <div>
-                                <img class="equipoV" src="assets/imagenes/Equipo-Veterinaria.jpeg" alt="">
+                                <img class="equipoV" src="assets/imagenes/evento-adopcion.jpg" alt="evento-adopcion" title="Evento Adopción">
+                            </div>                    
+                    </div>
+
+                    <div class="voluntariado">
+                            <div class="adopcion-text">
+                                    <span>
+                                        <h2>Voluntariado</h2>
+                                    </span>
+                                    <span>
+                                        <h4>Buscamos nuevos paseadores para otoño</h4>
+                                    </span>
+                                    <span class="icon">
+                                        <p>Sara Lopez</p>
+                                        <i class="fa-solid fa-comment"> 8</i>   
+                                    </span>
+                            </div> 
+                            <div>
+                                <img class="equipoVoluntario"  src="assets/imagenes/voluntatios.jpg" alt="Voluntariado" title="Voluntariado">
                             </div>                    
                     </div>
             </aside>
         
+        
     </section>
 
-    
-    
+    <section class="adopt">
+            <div>
+                <p class="adopt-text">El <span class="negrita">Refugio Esperanza</span> es una protectora <i>sin ánimo de lucro</i> nacida en e barrio de Roces, en Gijon. Apostamos por el  <span class="negrita">rescate responsable</span> y por encontrar un hogar <i>definitivo y feliz</i>
+                    a cada animal
+                </p>
+                <p>Nuetras instalaciones, en pleno <i>Camino de las Huertas,</i> reciben cada semana a decenas de voluntarios y familias interesadas en adoptar
+                </p>
+            </div>
+            <div class="button">
+                    <button class="adoptar" type="button">
+                        Quiero adoptar
+                    </button>
+            </div>
+    </section>
+
+    <section >
+        <h4 class="title-cifras" >EL REFUGIO EN CIFRAS</h4>
+            <div class="cifras">
+                    <div class="border-cifras">
+                        <h1 class="number">2010</h1>
+                        <p>Fundación</p>
+                    </div>
+                    <div class="border-cifras">
+                        <h1 class="number">1.200+</h1>
+                        <p>Animales rescatadaos</p>
+                    </div>
+                    <div class="border-cifras">
+                        <h1 class="number">84</h1>
+                        <p>Adopción este año</p>
+                    </div>
+                    <div class="border-cifras">
+                        <h1 class="number">45</h1>
+                        <p>Voluntarios activos</p>
+                    </div>
+            </div>
+    </section>
+
+    <section>
+        <h2 class="vide">Video</h2>
+            <div class="bienvenida">
+                    <div class="text-bienvenida">
+                        <h1>Video de bienvenida</h1>
+                        <p>Un breve recorrido por nuestras instalaciones de la mano del equipo</p>
+                    </div>
+                    
+                    <div class="video">
+                        <iframe width="95%" height="415" src="https://www.youtube-nocookie.com/embed/zlOw-kVP95Q?si=0DR3lEmyhGpfuM0d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+            </div>
+    </section>    
 </body>
 </html>

@@ -1,4 +1,11 @@
 
+/* STYLES of the index code */
+* {
+  
+  box-sizing: border-box;
+  margin: 1;
+}
+
 
 .logo {
     height: 200px;
@@ -11,20 +18,10 @@
     border-radius: 20px;
 }
 
-figure{
-    display: flex;
-    
-}
 
-figcaption {
-    align-self: center;
-    font-family: cursive;
-    font-size: x-large;
-    color: #5c4545;
-    
-}
 
 .img-content{
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,11 +37,29 @@ figcaption {
     padding: 20px;
     background-color: green;
 }
+.nav-menu-history{
+    background-color: rgba(116, 69, 69, 0.993);
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+    padding: 20px;
+}
+
 
 .nav-menu a{
     color: white;
     text-decoration: none;
+   display: flex;
+    flex-wrap: wrap;
 }
+.nav-menu-history a{
+    color: white;
+    text-decoration: none;
+   display: flex;
+    flex-wrap: wrap;
+}
+
+
 
 .active {
     height:20px;
@@ -53,54 +68,205 @@ figcaption {
 }
 
 
-.img-r{
-    display: block;
-    height: 300px;
-    width: 800px;
-}
+
 
 .fig-img{
-    position: relative;
-    width: fit-content;
-    margin: 0;
+    height: 100px;                     /*  Width---> ANCHO*/
+
 }
+
+.img-r{
+   flex-shrink: 0; /* keeps image div from stretching */
+
+   
+
+}
+
+.comunicacion h1, .comunicacion h3, .icon{
+   margin: 0;
+  padding: 0 10px 0px 0;
+    
+}
+
 
 .refugio{
     display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+   
 
 }
 
-.refugio-e{
-    position: absolute;
-    bottom: 40px;
-    background-color: bisque;
-    font-size: 20px;
-}
 
-.instalaciones{
-    position: absolute;
-    bottom: 10px;
-    background-color: bisque;
-}
 
 .sidebar{
-    width: 200px;
     display: flex;
     flex-direction: column;
-    margin: 0 10px;
+    margin: 0px;
     
 }
 
-.history{
+.history, .adopcion, .voluntariado{
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-.history-text{
+    justify-content: space-between;
+    padding: 5%;
     
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.history-text, .adopcion-text, .adopcion-text{
+    margin: 0;
     
 }
 
 .equipoV{
     height: 150px;
+    display: flex; align-items: center;
+    justify-content: center;
+}
+
+.equipoVoluntario{
+    height: 120px;
+}
+
+.negrita{
+    font-weight: bolder;
+}
+
+.adopt{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 7%; 
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.adoptar{
+    margin: 120px  0 0 0;
+    padding: 10px 60px;
+}
+
+
+.cifras{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.number{
+    color: green;
+}
+
+.border-cifras{
+    border-top: 4px solid green;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    text-align: center;
+    width: 15%;
+    margin: 10px 30px;
+    padding: 0px 0px 0px 0px;
+}
+
+.title-cifras{
+   color: rgb(57, 61, 48);
+    margin: 0%;
+}
+
+.vide{
+    color: rgb(57, 61, 48);
+}
+
+.text-bienvenida h1{
+    color: rgba(116, 69, 69, 0.993);
+    margin: 0%;
+}
+
+
+/* styles of the history code */
+
+.firts-team{
+height: 60vh;
+width: 98vw;
+ padding: 10px 0 30px;
+}
+
+.title-history h3{
+    color: rgba(116, 69, 69, 0.993);
+    margin: 0%;
+    font-size: 2em;
+}
+
+.title-history p{
+    margin: 0%;
+    font-size: 3em;
+     margin: 0px 0px 30px;
+    
+}
+
+.text-history{
+    border-left: 15px solid saddlebrown;
+    font-size: 3em;
+    padding: 20px;
+   
+}
+
+.text-ligth{
+    color: darkgrey;
+    margin: 0%;
+
+}
+
+.text-strong{
+    margin: 0%;
+}
+
+.fundacion{
+
+    display: flex;
+
+    
+}
+
+.dot{
+    color:  saddlebrown;
+    font-size: 6em;
+    align-self: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.centerdot{
+    display: flex;
+    justify-content: center;
+}
+
+.text-fundacion{
+    width: 40%;
+    margin: 0% 2px 0px;
+    padding: 0px 10px;
+    border: 2px solid gray;
+    font-size: 2em;
+    
+}
+.text-fundacion h2, .text-fundacion h3, .text-fundacion p{
+    margin: 0%;
+
+}
+
+.text-fundacion h2{
+    margin: 0%;
+    color:  saddlebrown;
+    
 }
