@@ -30,19 +30,18 @@
     box-shadow: 0 15px 30px;
 }
 
-.nav-menu, .nav-menu-equipo{
+.nav-menu, .nav-menu-equipo, .nav-menu-eventos, .nav-menu-history, 
+.nav-menu-voluntarios, .nav-menu-ubicacion{
     display: flex;
     justify-content: space-around;
     margin: 20px 10px;
     padding: 20px;
+}
+.nav-menu{
     background-color: green;
 }
 .nav-menu-history{
     background-color: rgba(116, 69, 69, 0.993);
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 10px;
-    padding: 20px;
 }
 
 
@@ -77,7 +76,7 @@
 }
 
 /* NEW*/
-img{
+.img{
     max-width: 100%;
     height: auto;
     display: block;
@@ -497,10 +496,6 @@ width: 98vw;
 /* styles of the EVENTS code */
 
 .nav-menu-eventos {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 10px;
-    padding: 20px;
     background-color: rgb(31, 23, 85);
 }
    
@@ -591,4 +586,156 @@ width: 98vw;
 .general-d{
     display: flex;
     justify-content: space-between;
+}
+
+/* VOLUNTARIADO  MENU*/
+
+.nav-menu-voluntarios a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-menu-voluntarios{
+    background-color: teal;
+}
+
+.volun-text{
+    background-color: teal;
+    color: white;
+    padding: 30px 60px;  
+}
+
+.more-text{
+    align-self: center;
+    width: 90%;
+    font-size: xx-large;
+}
+
+.testimonios{
+    margin: 10px;
+    padding: 9px;
+    display: flex;
+    gap: 30px;
+}
+
+.elena, .marcos{
+    background-color: lightgray;
+    border: 3px solid lightslategrey;
+    padding: 30px;
+    width: 50%;
+    
+}
+
+.elena p{
+    margin: 0;
+    font-size: 2em;    
+}
+
+.marcos p{
+        margin: 0;
+    font-size: 2em; 
+
+}
+
+.autor-testi{
+    color: lightslategray;
+}
+
+.apply-options{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.apply-button{
+    background-color: white;
+    margin: 40px;
+    padding: 10px 80px 10px;
+    border: 2px solid  teal;
+    color: teal;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+
+/* HOW TO ARRIVE TO THE PLACE MENU*/
+
+.nav-menu-ubicacion{
+    background-color: rgb(52, 41, 122);
+}
+
+.nav-menu-ubicacion a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-ubi{
+    display: flex;
+    gap: 30px;
+
+}
+
+.text-ubi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 3px solid rgb(52, 41, 122);
+}
+
+.direc {
+    margin: 0;
+    font-size: 2em;
+}
+#direct2{
+    padding: 0px 0px 30px;
+}
+
+.time {
+  margin: 0;
+      font-size: 2em;
+
+}
+
+.trasp{
+    margin: 10px;
+    padding: 20px;
+}
+.general-trasp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bus12{
+    border: 2px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10%;
+
+
+}
+.grey-color{
+    color: lightslategrey;
+    margin: 0%;
+}
+.linea{
+    margin: 0%;
+}
+
+.bus-icon {
+    font-size: 35px;
+    color: #ffd21f; /* yellow outside */
+}
+
+.bus-icon i {
+    text-shadow: 
+        0 0 0 #ffd21f;
+}
+
+.fa-square-parking {
+    color: green;
 }
