@@ -30,7 +30,7 @@
     box-shadow: 0 15px 30px;
 }
 
-.nav-menu{
+.nav-menu, .nav-menu-equipo{
     display: flex;
     justify-content: space-around;
     margin: 20px 10px;
@@ -249,11 +249,35 @@ width: 98vw;
     margin: 0%;
 }
 
-.fundacion{
+.fundacion, .adopciones{
+    display: flex; 
+    justify-content: flex-start; 
+ 
+}
 
-    display: flex;
+.instalaciones, .voluntadiado{
+    display: flex; 
+    justify-content: flex-end;
+
+}
+
+.dot-instalaciones{
+    color:  saddlebrown;
+    font-size: 6em;
+    align-self: center;
+    justify-content: center;
+    width: 20%;
 
     
+}
+
+.text-instalaciones{
+    width: 40%;
+    margin: 0% 10px 1%;
+    padding: 10px 20px;
+    border: 2px solid gray;
+    font-size: 2em;
+    order: 1;    
 }
 
 .dot{
@@ -261,22 +285,35 @@ width: 98vw;
     font-size: 6em;
     align-self: center;
     justify-content: center;
-    width: 10%;
+    width: 15%;
 }
 
-.centerdot{
+.centerdot, .centerdot-instalaciones{
     display: flex;
     justify-content: center;
 }
 
+
 .text-fundacion{
     width: 40%;
-    margin: 0% 2px 0px;
-    padding: 0px 10px;
+    margin: 0% 10px 1%;
+    padding: 10px 20px;
     border: 2px solid gray;
     font-size: 2em;
     
 }
+
+.text-instalaciones h2, .text-instalaciones h3, .text-instalaciones p{
+    margin: 0%;
+    
+}
+
+.text-instalaciones h2{
+    margin: 0%;
+    color:  saddlebrown;
+    
+}
+
 .text-fundacion h2, .text-fundacion h3, .text-fundacion p{
     margin: 0%;
 
@@ -286,4 +323,272 @@ width: 98vw;
     margin: 0%;
     color:  saddlebrown;
     
+}
+
+
+/* styles of the team code */
+
+.nav-menu-equipo{
+    background-color: rgb(146, 39, 39);
+}
+
+.nav-menu-equipo a{
+    color: white;
+    text-decoration: none;
+   display: flex;
+    flex-wrap: wrap;
+}
+
+.inicial-text h2{
+    color: rgb(146, 39, 39);
+    margin: 0%;
+    padding: 30px 0px 0;
+}
+
+.inicial-text p{
+    font-size: 2em;
+    margin: 0%;
+    padding: 0px 0px 2dvh;
+}
+
+.coordinacion{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.img-marta{
+     width: 600px;
+    height: 310px;         /* fixed height so it never gets huge TO HERE THE CHANGE MADE THE IMAGE GO WIDTH */
+}
+
+.marta{
+    border: 1px solid lightgray;
+    font-size: 35q;
+        /*0q*/
+}
+
+.marta h4{
+    color: rgb(146, 39, 39);
+    margin: 0%;
+}
+
+.marta h1{
+    margin: 0%;
+}
+
+.marta p{
+    margin: 1px;
+}
+
+.coordinadora-marta{
+    color: lightslategray;
+    margin: 0%;
+}
+
+.equipo-veterinario{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.docs{
+    height: 300px;
+}
+
+.doc-alvarez h2, .doc-alvarez p{
+    margin: 0%;
+    text-align: center;
+    padding: 0px;
+}
+
+.doc-alvarez p{
+    color: lightslategray;
+}
+
+.voluntariados{
+    margin: 20px;
+}
+
+.lista-volun{
+    font-size: xx-large;
+}
+
+.text-volun{
+    font-size: x-large;
+    border-left: 5px solid gray;
+    padding: 0% 15px;
+}
+
+/* styles of the pets code */
+
+ 
+.nav-menu-animales {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+    padding: 20px;
+    background-color:  rgb(184, 91, 25);
+}
+   
+.nav-menu-animales a{
+    color: white;
+    text-decoration: none;
+   display: flex;
+    flex-wrap: wrap;
+}
+
+.option h3{
+    color:  rgb(184, 91, 25);
+    font-size: 2em;
+    margin: 0%;
+
+}
+
+.option p{
+    margin: 0%;
+    padding: 0 0 20px;
+    font-size: 3em;
+}
+
+.pets-options{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.option-button{
+    background-color: white;
+    margin: 30px;
+    padding: 10px 80px 10px;
+    border: 2px solid  rgb(184, 91, 25);
+    color:  rgb(184, 91, 25);
+    font-weight: bolder;
+}
+
+.available{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grey-pets {
+    color: lightslategray;
+    align-self: center;
+
+
+}
+
+.pets{
+    width: 800px;
+    height: 400px;
+}
+
+.luna h2, .luna p, .luna a{
+    margin: 0%;
+}
+.luna{
+        padding: 20px 0 0 0px;
+}
+
+.age{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* styles of the EVENTS code */
+
+.nav-menu-eventos {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+    padding: 20px;
+    background-color: rgb(31, 23, 85);
+}
+   
+.nav-menu-eventos a{
+    color: white;
+    text-decoration: none;
+   display: flex;
+    flex-wrap: wrap;
+}
+
+
+.adopc-event{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+
+.evento-text{
+    border: 1px solid lightgray;
+        /*0q*/
+}
+.title-event{
+      color: rgb(31, 23, 85);
+      margin: 0%;
+}
+
+.evento-text h4{
+    color: rgb(31, 23, 85);
+    margin: 0%;
+    
+}
+
+.evento-text h1{
+    margin: 0%;
+}
+
+.evento-text p{
+    margin: 1px;
+}
+
+.lugar-event{
+    color: lightslategray;
+    margin: 0%;
+}
+
+
+.datees{
+    background-color: rgb(27, 23, 51);
+    color: white;
+    padding: 40px 80px;  
+}
+
+.datees p, .datees h1{
+    margin: 0%;
+   /* padding: 50px 90px 0 ;*/
+ 
+}
+.numbr{
+    font-size: 3em;
+}
+.sep{
+    font-size: 1.5em;
+}
+
+
+.evento-text{
+    border: 1px solid lightgray;
+    width: 90%;
+    font-size: xx-large;
+}
+.date-eventss, .more-dates{
+    margin: 10px;
+    padding: 9px;
+}
+
+
+.moreDates{
+    border: 1px solid lightgrey;
+    padding: 1% 12%;
+
+}
+
+.moreDates h1, .moreDates p{
+    margin: 0%;
+}
+
+.general-d{
+    display: flex;
+    justify-content: space-between;
 }
