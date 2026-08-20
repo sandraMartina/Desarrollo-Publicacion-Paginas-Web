@@ -19,9 +19,7 @@
 }
 
 
-
 .img-content{
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,8 +28,16 @@
     box-shadow: 0 15px 30px;
 }
 
+.img-content figcaption{
+    font-family: 'Italianno', cursive;
+    font-size: 4em;
+
+}
+
+
 .nav-menu, .nav-menu-equipo, .nav-menu-eventos, .nav-menu-history, 
-.nav-menu-voluntarios, .nav-menu-ubicacion{
+.nav-menu-voluntarios, .nav-menu-ubicacion, .nav-menu-enlace,
+.nav-menu-galeria, .nav-menu-video{
     display: flex;
     justify-content: space-around;
     margin: 20px 10px;
@@ -57,8 +63,6 @@
    display: flex;
     flex-wrap: wrap;
 }
-
-
 
 .active {
     height:20px;
@@ -95,8 +99,6 @@
     height: 400px;         /* fixed height so it never gets huge TO HERE THE CHANGE MADE THE IMAGE GO WIDTH */
     object-fit: cover;     /* crops nicely instead of stretching */
     border-radius: 15px;
-   
-
 }
 
 .comunicacion h1, .comunicacion h3, .icon{
@@ -105,11 +107,6 @@
     
 }
 
-
-
-
-
-
 .sidebar{
     display: flex;
     flex-direction: column;
@@ -117,8 +114,6 @@
     /* NEW ADD*/
     flex: 1 1 320px;   /* sidebar column, wraps below on small screens  I HAVE TO TOUCH IT*/
     gap: 15px;  
-
-    
 }
 
 .history, .adopcion, .voluntariado{
@@ -663,7 +658,7 @@ width: 98vw;
 /* HOW TO ARRIVE TO THE PLACE MENU*/
 
 .nav-menu-ubicacion{
-    background-color: rgb(52, 41, 122);
+    background-color: rgb(25, 22, 39);
 }
 
 .nav-menu-ubicacion a{
@@ -715,9 +710,8 @@ width: 98vw;
     flex-direction: column;
     align-items: center;
     padding: 20px 10%;
-
-
 }
+
 .grey-color{
     color: lightslategrey;
     margin: 0%;
@@ -738,4 +732,260 @@ width: 98vw;
 
 .fa-square-parking {
     color: green;
+}
+
+.schedule{
+margin: 10px;
+display: flex;
+
+}
+
+.table{
+    flex-grow: 1;
+    flex-basis: auto;
+    font-size: 2em;
+}
+
+
+/* LINKS  MENU*/
+
+.nav-menu-enlace{
+    background-color: rgb(28, 28, 90);
+}
+
+.nav-menu-enlace a{
+    color: white;
+    text-decoration: none;
+   display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-menu-link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-menu-link a{
+    color: white;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.text-link p, .text-link h1{
+    margin: 0%;
+}
+
+.text-link h1{
+    color: rgb(28, 28, 90);
+    
+}
+.text-link{
+    margin: 1px;
+    padding: 20px;
+    font-size: 20q;
+}
+
+.oficial-info{
+    margin: 10px;
+}
+
+.tableHead{
+    background-color: lightgrey;
+}
+
+.linksInfo{
+    display: flex;
+    flex-grow: 2;
+}
+
+.linksInfo th, .linksInfo td{
+    padding: 10px;
+}
+
+.links-foot{
+    margin: 10% 0 0 0;
+    padding: 20px;
+    background-color: rgb(22, 18, 53);
+    color: aliceblue;
+}
+
+.link-refu a{
+    color: wheat;
+}
+
+.general-link{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.map{
+    flex-grow: 1;
+}
+
+/* GALLERY MENU*/
+.nav-menu-galeria a{
+    color: white;
+    text-decoration: none;
+   display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-menu-galeria{
+    background-color: darkgoldenrod;
+}
+
+.text-galery{
+    margin: 1px;
+    padding: 20px;
+    font-size: 20q;
+}
+
+.text-galery p, .text-galery h3{
+    margin: 0%;
+    font-size: 2em;
+}
+
+.text-galery h3{
+    color:  darkgoldenrod;
+}
+
+.img-adop, .luna-adop{
+    position: relative;
+}
+
+ .img-adop h3{
+    background-color: white;
+    color: rgb(71, 85, 85);
+    position: absolute;
+    bottom: 6%;
+    font-size: 2em;
+}
+
+.img-adop p{
+    background-color: white;
+     color: rgb(71, 85, 85);
+    position: absolute;
+    bottom: 0%;
+    font-size: 2em;
+}
+
+.feriadop{
+    height: 700px;
+    width: 100%;
+    display: block;
+}
+.luna-img{
+    height: 400px;
+}
+
+.more-galery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.luna-adop h3{
+    background-color: white;
+     color:black;
+    position: absolute;
+    bottom: 5%;
+    font-size: 20q;
+}
+
+.luna-adop p{
+    background-color: white;
+     color: black;
+    position: absolute;
+    bottom: 0%;
+    font-size: 20q;
+}
+
+.add-pic h1{
+    margin: 0%;
+}
+
+.text-sendpic{
+    font-size: 2em;
+    border-left: 5px solid gray;
+    padding: 0px 20px;
+}
+
+.request{
+    font-size: xx-large;
+        margin: 0%;
+}
+
+.add-pic{
+    margin: 5% 0% 0%;
+}
+
+.send-button{
+    font-size: 2em;
+     margin: 2% 0% 0%;
+     padding: 10px 80px;
+}
+
+/* VIDEO MENU*/
+.nav-menu-video a{
+    color: white;
+    text-decoration: none;
+   display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-menu-video{
+    background-color: rgb(101, 91, 168);
+}
+
+.text-video h1{
+    margin: 0%;
+}
+
+.text-video h1{
+    color: rgb(101, 91, 168);
+    
+}
+.text-video{
+    margin: 1px;
+    padding: 20px;
+    font-size: 15q;
+}
+
+.video-inicial{
+    margin: 1%;
+}
+
+.video-inicial p{
+    font-size: 2em;
+}
+
+.more-videos h1{
+        margin: 1%;
+}
+
+.father{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.childs{
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+
+.testi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grey-pets {
+    color: lightslategray;
+    align-self: center
+}
+
+.testi p{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: xx-large;
 }
