@@ -19,9 +19,10 @@
 }
 .nav-menu-inicio a:hover {
     font-size: large;
-  color: aqua;
+    background-color: green;
+    color: white;
     transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 #active{
@@ -128,10 +129,12 @@
 
 .nav-menu-clase a:hover {
     font-size: large;
-  color: rgb(97, 14, 14);
+    background-color: hotpink;
+    color: black;
     transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
+
 
 .text-class{
     margin: 50px 0px 0px;
@@ -260,6 +263,13 @@
     text-decoration: none;
     padding: 9px;
 }
+.nav-menu-contacto a:hover {
+    font-size: large;
+    background-color: lightseagreen;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
 
 .staff{
     display: grid;
@@ -270,8 +280,26 @@
 
 .staff-img{
     width: 100%;
-    height: 90%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
 }
+.staff-img2{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center top ;
+    display: block;
+}
+
+/* .staff-img[alt="Laura Reyes"] {
+  object-position: center top;
+}
+.staff-img[alt="Gonzalo Martínez"] {
+  object-position: center 30%;
+} */
+
+
 
 .text-margin h3{
     margin: 0%;
@@ -321,19 +349,37 @@
 }
 
 .edition-table{
+    width: 100%;
+    border-collapse: collapse; /* merges double borders into single clean lines */
 }
 
-.table{
-    display: grid;
-    border: 1px solid lightgrey;    
+.edition-table th,
+.edition-table td {
+  border: 1px solid lightgrey;
+  padding: 10px 15px;       /* gives the rows breathing room, matches the mockup */
+  text-align: left;
 }
 
-.table th{
-    background-color: lightgray;
-    text-align: start;
-    gap: 10px;
+.edition-table th {
+  background-color: lightgray;
+  font-weight: bold;
 }
 
-.lines td{
-        border: 1px solid lightgrey;    
+
+.loc-buttom{
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px;
+      transition: background-color 0.3s ease;
+}
+
+.bton-loc{
+    padding: 10px 70px;
+    
+}
+
+.bton-loc:hover{
+    background-color: #2980b9;
+    color: white;
+    cursor: pointer;
 }
