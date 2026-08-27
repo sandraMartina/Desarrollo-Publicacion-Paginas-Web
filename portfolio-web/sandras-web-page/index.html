@@ -1,22 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sandra's Page</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sandra — Web · Sys · Sec</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <section class="hero-stage" id="heroStage">
-            <div class="hero-caption">
-                <h1>Keep scrolling</h1>
-                <p>the image grows to fill the screen</p>
-            </div>
-            <div class="hero-pin" id="heroPin">
-                <img class="hero-img" id="heroImg" src="assets/web-dev.jpg"
-                alt="Portrait that scales up to fill the screen as the user scrolls">
-            </div>
-  </section>
-    
+
+<div class="bg-fixed">
+  <div class="glow"></div>
+  <div class="bg-dots"></div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="node-field">
+
+    <svg class="connector-svg" viewBox="0 0 1100 520" preserveAspectRatio="none" aria-hidden="true">
+      <line class="conn-path conn-horizon" x1="0" y1="292" x2="1100" y2="292"></line>
+      <line class="conn-path conn-left"    x1="165" y1="177" x2="440" y2="292"></line>
+      <line class="conn-path conn-right"   x1="935" y1="177" x2="660" y2="292"></line>
+      <line class="conn-path conn-down"    x1="550" y1="380" x2="550" y2="500"></line>
+    </svg>
+
+    <a href="#web-section" class="hex-link hex-web" aria-label="Web development">
+      <div class="hex" data-hex="web"><span>WEB</span></div>
+    </a>
+
+    <a href="#sys-section" class="hex-link hex-sys" aria-label="Systems administration">
+      <div class="hex" data-hex="sys"><span>SYS</span></div>
+    </a>
+
+    <a href="#sec-section" class="hex-link hex-sec" aria-label="Cybersecurity">
+      <div class="hex" data-hex="sec"><span>SEC</span></div>
+    </a>
+
+    <div class="center-copy">
+      <div class="eyebrow" id="eyebrow">HI, I'M</div>
+      <h1 class="name" id="name-target" data-text="Sandra"></h1>
+      <div class="tagline" id="tagline">
+        WEB DEVELOPMENT <span class="dot">·</span> SYSTEMS ADMINISTRATION <span class="dot">·</span> CYBERSECURITY
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint" id="scroll-hint">
+    <span>Scroll down</span>
+    <span>↓</span>
+  </div>
+</section>
+
+<!-- ============ SYS SECTION ============ -->
+<section class="sys-section" id="sys-section">
+  <div class="sys-header">
+    <div class="sys-hex-mark">SYS</div>
+    <div class="sys-title">Systems Administration</div>
+    <div class="sys-sub">
+      Keeping infrastructure running quietly in the background — servers, networks,
+      and the automation that means nobody has to think about them.
+    </div>
+  </div>
+
+  <div class="terminal">
+    <div class="terminal-bar">
+      <span></span><span></span><span></span>
+      <div class="path">sandra@sys ~ % toolkit</div>
+    </div>
+    <div class="terminal-body">
+      <div class="tb-line"><span class="prompt">$</span><span class="cmd">ls ./stack</span></div>
+
+      <div class="tool-grid">
+        <div class="tool-card">
+          <div class="tool-cat">OS &amp; SERVERS</div>
+          <div class="tool-name">Linux</div>
+          <div class="tool-desc">Debian/Ubuntu &amp; RHEL administration, shell scripting, systemd.</div>
+        </div>
+        <div class="tool-card">
+          <div class="tool-cat">VIRTUALIZATION</div>
+          <div class="tool-name">Docker</div>
+          <div class="tool-desc">Containerized services, Compose stacks, image hardening.</div>
+        </div>
+        <div class="tool-card">
+          <div class="tool-cat">CLOUD</div>
+          <div class="tool-name">AWS</div>
+          <div class="tool-desc">EC2, S3, IAM policy design, cost-aware architecture.</div>
+        </div>
+        <div class="tool-card">
+          <div class="tool-cat">AUTOMATION</div>
+          <div class="tool-name">Ansible</div>
+          <div class="tool-desc">Idempotent provisioning across fleets of machines.</div>
+        </div>
+        <div class="tool-card">
+          <div class="tool-cat">NETWORKING</div>
+          <div class="tool-name">Nginx</div>
+          <div class="tool-desc">Reverse proxies, load balancing, TLS termination.</div>
+        </div>
+        <div class="tool-card">
+          <div class="tool-cat">MONITORING</div>
+          <div class="tool-name">Prometheus</div>
+          <div class="tool-desc">Metrics, alerting rules, Grafana dashboards.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="next-hint">
+    <span class="pill">WEB</span>
+    <span class="pill active">SYS</span>
+    <span class="pill">SEC</span>
+  </div>
+</section>
+
+<!-- Placeholder anchors so the WEB / SEC hex links don't dead-end -->
+<section id="web-section" class="stub-section">
+  WEB section — coming next
+</section>
+<section id="sec-section" class="stub-section">
+  SEC section — coming next
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
