@@ -1,8 +1,9 @@
 
-.nav-menu-inicio{
+.nav-menu-inicio, .nav-menu-clase{
     display: flex;
     justify-content: flex-start;
     gap: 30px;
+    padding: 10px;
 
 }
 
@@ -18,8 +19,8 @@
 }
 
 #active{
-    height: 7px;
-    border-bottom: 2px solid white;
+    height: 8px;
+    border-bottom: 3px solid white;
 }
 
 .grey{
@@ -27,18 +28,20 @@
 }
 .img-width p{
     margin: 0%;
-    text-align: center;
+
 }
 
 .img-width{
-    margin: 0%;
+    text-align: center;
+    height: 100%;
+    margin: 10px 0 90px;
 }
 
 
 .big-img{
 
     width: 100%;
-    height: 50%;
+    height: 500px;
 }
 .text-buttom h3{
     color:  rgb(97, 14, 14);
@@ -48,8 +51,7 @@
         margin: 0%;
 }
 .text-buttom{
-    margin: 0%;
-    font-size: 2em;
+    font-size: 30q;
     display: flex;
     flex-direction: column;
 }
@@ -60,8 +62,11 @@
 }
 
 .data{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
 }
 
 .data p{
@@ -69,10 +74,156 @@
 }
 
 .six p{
-    text-align: center;
     font-weight: bold;
 }
 
 .cifras{
-    font-size: 2em;
+    font-size: 30q;
+}
+
+.types{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    text-align: center;
+}
+.dances, .types-width{
+    margin: 90px 0px 0px;
+}
+
+.img-salsa, .types-w{
+    width: 100%;
+    height: 500px;
+}
+
+.salsa p, .ballet p{
+    margin: 0%;
+    font-weight: bold;
+}
+.columns{
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    text-align: center;
+    gap: 10px;
+}
+
+/* CODE OF NAV-> CLASES */
+
+.nav-menu-clase{
+    background-color: rgb(155, 112, 4);
+
+}
+
+.nav-menu-clase a{
+    color: white;
+    text-decoration: none;
+    padding: 9px;
+}
+
+.text-class{
+    margin: 50px 0px 0px;
+}
+.text-class h1, .text-class p{
+    margin: 0%;
+    font-size: xx-large;
+}
+
+.mouth-class{
+    margin: 3% 0px 0px;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+
+
+}
+
+.imag{
+    width: 100%;
+    height: 100%;
+}
+
+.texts-style{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+
+
+
+}
+.text-salsa{
+    border-top: 1px solid lightslategrey;
+    border-right: 1px solid lightslategrey;
+
+}
+
+
+.red-text{
+    color: rgb(92, 9, 9);
+    font-weight: bolder;
+}
+.time, .demostracion{
+    margin: 70px 0px;
+}
+
+.general-time, .second-color, .third, .fourth, .fifht{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    
+}
+
+.color-grey{
+    text-align: center;
+    font-weight: bolder;
+    background-color: lightgray;
+    border: 1px solid lightslategray;
+}
+
+.second-color, .third, .fourth, .fifht{
+    border-bottom: 1px solid lightslategrey;
+    border-right: 1px solid lightslategrey;
+    border-left: 1px solid lightslategrey;
+}
+
+.hour{
+    border-right: 1px solid lightslategrey;
+    font-weight: bolder;
+    border-left: 1px solid lightslategrey;
+    border-right: 1px solid lightslategrey;
+}
+
+.darkblue{
+    color: white;
+    background-color: rgb(6, 6, 66);
+}
+
+.golden{
+    color: white;
+    background-color: goldenrod;
+}
+.purple{
+    background-color: rgb(124, 17, 97);
+    color: white;
+}
+.darkcyan{
+    background-color: darkcyan;
+        color: white;
+}
+.empty{
+    background-color: white;
+    color: white;
+     border-right: 1px solid lightslategrey;
+}
+
+.demostracion-buttom{
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px;
+}
+
+.bton{
+    padding: 10px 50px;
 }
