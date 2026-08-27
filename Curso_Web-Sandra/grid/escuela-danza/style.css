@@ -1,5 +1,5 @@
 
-.nav-menu-inicio, .nav-menu-clase{
+.nav-menu-inicio, .nav-menu-clase, .nav-menu-contacto{
     display: flex;
     justify-content: flex-start;
     gap: 30px;
@@ -16,6 +16,12 @@
     color: white;
     text-decoration: none;
     padding: 10px;
+}
+.nav-menu-inicio a:hover {
+    font-size: large;
+  color: aqua;
+    transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 #active{
@@ -120,6 +126,13 @@
     padding: 9px;
 }
 
+.nav-menu-clase a:hover {
+    font-size: large;
+  color: rgb(97, 14, 14);
+    transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
 .text-class{
     margin: 50px 0px 0px;
 }
@@ -222,8 +235,105 @@
     display: flex;
     justify-content: center;
     margin: 70px 0px;
+      transition: background-color 0.3s ease;
 }
 
 .bton{
     padding: 10px 50px;
+    
+}
+
+.bton:hover{
+    background-color: #2980b9;
+    cursor: pointer;
+}
+
+/* CODE OF NAV-> Contacto */
+
+.nav-menu-contacto{
+    background-color: rgb(58, 32, 68);
+
+}
+
+.nav-menu-contacto a{
+    color: white;
+    text-decoration: none;
+    padding: 9px;
+}
+
+.staff{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.staff-img{
+    width: 100%;
+    height: 90%;
+}
+
+.text-margin h3{
+    margin: 0%;
+}
+
+.grey-staff{
+    color: grey;
+    margin: 0%;
+}
+
+.ubicacion, .recepcion-time{
+        margin: 90px 0px 0px;
+}
+
+.ubicacion h3{
+    font-size: x-large;
+}
+
+.location{
+    display: grid;
+    text-align: center;
+}
+
+.loc-blue{
+    background-color: rgb(42, 11, 71);
+    color: white;
+}
+
+.map{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.pink-color{
+    background-color: purple;
+    color: white;
+}
+
+.text-ubi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-ubi h3, .text-ubi p{
+    margin: 0%;
+}
+
+.edition-table{
+}
+
+.table{
+    display: grid;
+    border: 1px solid lightgrey;    
+}
+
+.table th{
+    background-color: lightgray;
+    text-align: start;
+    gap: 10px;
+}
+
+.lines td{
+        border: 1px solid lightgrey;    
 }
