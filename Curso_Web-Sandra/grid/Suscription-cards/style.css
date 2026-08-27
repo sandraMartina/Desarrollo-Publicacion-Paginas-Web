@@ -1,0 +1,28 @@
+
+.generalC{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 90px);
+    gap: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.be{
+    background-color: lightblue;
+}
+
+.be p{
+    margin: 0%;
+}
+
+.pre{
+    background-color: cornflowerblue;
+    grid-row: span 2;
+    color: white;
+}
+
+.pre p{
+    margin: 0%;
+    padding: 0px 20px;
+}

@@ -1,0 +1,28 @@
+
+    /* if i want to comment some lines codes and i already select them all, all i need to do 
+    is pressing crl + k and then crl+c */
+
+.generalContainer{
+    display: grid;
+
+
+}
+
+.navegacion{
+    background-color: aqua;
+}
+
+.big-img{
+    background-color: blueviolet;
+
+}
+
+
+.big-image{
+
+
+}
+
+.img-hijos{
+    background-color: cadetblue;
+}

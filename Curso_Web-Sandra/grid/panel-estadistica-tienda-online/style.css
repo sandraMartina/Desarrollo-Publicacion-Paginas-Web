@@ -1,0 +1,29 @@
+
+
+.panel-general{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 12px;
+    
+
+}
+
+.green{
+    background-color: green;
+    grid-column: span 2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4%;
+
+
+
+}
+
+.ligthg{
+    background-color: lightgreen;
+      padding: 20px;
+      text-align: center;
+      border-radius: 4%;
+}

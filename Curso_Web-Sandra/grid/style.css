@@ -1,0 +1,26 @@
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.e1{
+    background-color: aqua;
+}
+
+.e2{
+    background-color: blueviolet;
+}
+
+.e3{
+    background-color: chartreuse;
+
+}
+.e4{
+    background-color: brown;
+}
+
+.e5{
+    background-color: darkgoldenrod;
+}
