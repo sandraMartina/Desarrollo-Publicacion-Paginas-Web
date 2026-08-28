@@ -1,0 +1,38 @@
+
+
+.imagen img{
+height: 200px;
+}
+
+.imagen{
+   width: 10%;
+   margin: 10%;
+}
+
+.img-product:hover{
+    transform: scale(1.1);
+}
+
+.letter-blue:hover{
+ color: rgb(62, 115, 212);
+ cursor: pointer;
+}
+
+
+.img-auriculares{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.buttn{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(13, 13, 44);
+    color: white;
+    border-radius: 10px;
+}
+
+.buttn:hover{
+    background-color: rgb(62, 115, 212);
+}

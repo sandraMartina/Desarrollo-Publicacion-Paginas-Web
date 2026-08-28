@@ -1,0 +1,68 @@
+
+
+.flowers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flowers img{
+    height: 500px;
+}
+
+footer{
+    background-color: #0c2844;
+    margin: 5% 0px;
+    color: white;
+}
+
+.text-contact{
+    display: flex;
+    /* gap: 50px; */
+        justify-content: space-around;
+}
+.goingUp{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.volver-arriba{
+    text-decoration: none;
+    background-color: #0c2844;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.volver-arriba:hover{
+background-color: #0A66C2;
+}
+
+.text-linkFollow{
+}
+
+
+/* ICONS */
+.instagram {
+    color: #E4405F;
+}
+
+.linkedin {
+    color: #0A66C2;
+}
+
+.social-icon {
+    padding: 10px;
+}
+
+.social-icon:hover {
+    font-size: large;
+    border-radius: 20px;
+    color: white;
+    background-color: #0A66C2;
+}
+
+.underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+
+
+.menu-nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(30, 26, 58);
+    padding: 20px;
+}
+
+.menu-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.marca{
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+.reserva:hover {
+    background-color: rgb(36, 36, 148);
+    padding: 9px 20px;
+    border-radius: 10px;
+
+}
+
+.reserva {
+    background-color: rgb(12, 80, 158);
+    padding:  5px;
+    border-radius: 10px;
+}
+
+
+.rest-of-menu:hover{
+    background-color: rgb(141, 143, 143);
+    border-radius: 25px;
+    padding: 3px 10px;
+    text-decoration: underline;
+}
