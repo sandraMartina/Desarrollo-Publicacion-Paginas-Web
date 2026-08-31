@@ -1,0 +1,55 @@
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    position: sticky;
+    border-radius: 20px;
+
+    
+}
+.head img:first-child{
+    height: 200px;
+    position: relative;
+}
+
+.head p:first-of-type{
+    display: flex;
+    align-items: center;  
+}
+    
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(64, 64, 92);
+    color: white;
+    padding: 20px;
+}
+
+.nav-menu div:first-child{
+    color: darkorange;
+    font-weight: bold;
+}
+
+
+.cieloSomiedo :first-child{
+    margin: 20px 0px;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    position: relative;
+}
+
+
+.cieloSomiedo{
+    position: relative;
+    width: 100%;
+}
+
+.cieloSomiedo p:nth-child(2) {
+    position: absolute;
+    background-color: aqua;
+
+}

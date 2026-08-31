@@ -1,0 +1,42 @@
+
+
+.menu-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.different-menu a, .us a, .reserva a, .inicio a{
+    text-decoration: none;
+    flex-basis: auto;
+}
+
+.different-menu {
+    display: flex;
+}
+.dropdown-menu > a::after {
+    content: "▾";
+    margin-left: 8px;
+        display: inline-block;
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-menu:hover > a::after {
+    transform: rotate(180deg);
+}
+
+.submenu{
+    display: flex;
+    flex-direction: column;
+}
+
+.miMarca{
+   flex-basis: 10%;
+
+
+}
+
+/* examples of the childs options */
+/* .miMarca p:not {
+    background-color: aqua;
+} */
