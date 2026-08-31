@@ -51,5 +51,6 @@ header{
 .cieloSomiedo p:nth-child(2) {
     position: absolute;
     background-color: aqua;
+    bottom: ;
 
 }
