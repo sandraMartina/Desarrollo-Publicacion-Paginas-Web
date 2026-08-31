@@ -32,14 +32,14 @@ header{
 }
 
 
-.cieloSomiedo :first-child{
+.cieloSomiedo img:first-child{
     margin: 20px 0px;
     width: 100%;
     height: 600px;
     object-fit: cover;
     object-position: center top;
     display: block;
-    position: relative;
+
 }
 
 
@@ -50,7 +50,65 @@ header{
 
 .cieloSomiedo p:nth-child(2) {
     position: absolute;
-    background-color: aqua;
-    bottom: ;
+    left: 20px;
+    bottom: 50px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
 
+.cieloSomiedo p:nth-child(2)::first-letter {
+    /* styles just for the first letter */
+    font-size: 3rem;
+    color: darkgoldenrod;
+}
+
+.cieloSomiedo p:nth-child(3) {
+    position: absolute;
+    left: 20px;
+    bottom: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.cieloSomiedo p:nth-child(4) {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.text-astro{
+    font-size: 2em;
+}
+
+
+.participar{
+    background-color: darkgoldenrod;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.participar:hover{
+    background-color: aqua;
+    font-size: large;
+}
+
+.cifras, .cifras-datos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cifras-datos{
+    background-color: rgb(16, 16, 70);
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+.cifras{
+    background-color: rgb(33, 33, 169);
+    color: darkgoldenrod;
+    font-weight:bolder
 }
