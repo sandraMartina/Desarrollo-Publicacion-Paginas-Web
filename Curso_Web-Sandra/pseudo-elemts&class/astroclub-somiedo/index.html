@@ -1,78 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Astroclub Somiedo</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-        <header class="head">
-                <img src="assets/img/logo.png" alt="Logo AstroClub Somiedo"
-                    title="Logo AstroClub Somiedo">
-                <p>Asociación de astronomía · Reserva Starlight de Somiedo, Asturias</p>
-        </header>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="inicio">
+    <header class="head">
+      <img
+        src="assets/img/logo.png"
+        alt="Logo AstroClub Somiedo"
+        title="Logo AstroClub Somiedo"
+      />
+      <p>Asociación de astronomía · Reserva Starlight de Somiedo, Asturias</p>
+    </header>
 
-            <nav class="nav-menu">
-                <div> INICIO </div>
-                <div>QUIÉNES SOMOS</div>
-                <div>CONTACTO</div>
-            </nav>
-            
-            <div class="cieloSomiedo">
-                <img src="assets/img/somiedo_portada-.jpg" alt="Cielo nocturno Somiedo"
-                    title="Cielo nocturno sobre el valle del Lago, Somiedo">
-                    <p>Astroclub Somiedo</p>
-                    <p>Un cielo protegido para descubrir las estrellas</p>
-                    <p><i>Equipo de comunicaciones</i></p>
-            </div>
+    <nav class="nav-menu">
+      <div>
+        <a
+          href="index.html"
+          onclick="
+            alert('Estas en la Página de inicio');
+            return false;
+          "
+          >INICIO</a
+        >
+      </div>
+      <div><a href="quienes-somos.html">QUIÉNES SOMOS</a></div>
+      <div><a href="contacto.html">CONTACTO</a></div>
+    </nav>
 
-            <div class="text-astro">
-                <p><b>AstroClub Somiedo</b> es una Asociación sin ánimo de lucro nacida en el Valle del Lago, 
-                    en pleno corazón de la Reserva Starlight. 
-                    Apostamos por la divulgacion responsable y por acercar 
-                    el cielo norcturno a cualqueir persona
-                </p>
-                <p>
-                    Nuestras instlaaciones reciben cada semana a decenas de coluntarios y familias interesadas en la astronomía
-                </p>
-            </div>
+    <div class="cieloSomiedo">
+      <img
+        src="assets/img/somiedo_portada-.jpg"
+        alt="Cielo nocturno Somiedo"
+        title="Cielo nocturno sobre el valle del Lago, Somiedo"
+      />
+      <p>Astroclub Somiedo</p>
+      <p>Un cielo protegido para descubrir las estrellas</p>
+      <p><i>Equipo de comunicaciones</i></p>
+    </div>
 
-            <div class="participar">
-                QUIERO PARTICIPAR
+    <div class="text-astro">
+      <p>
+        <b>AstroClub Somiedo</b> es una Asociación sin ánimo de lucro nacida en
+        el Valle del Lago, en pleno corazón de la Reserva Starlight. Apostamos
+        por la divulgacion responsable y por acercar el cielo norcturno a
+        cualqueir persona
+      </p>
+      <p>
+        Nuestras instlaaciones reciben cada semana a decenas de coluntarios y
+        familias interesadas en la astronomía
+      </p>
+    </div>
+
+    <div class="participar">QUIERO PARTICIPAR</div>
+
+    <!-- THIS CODE IS BEING NEAT  -->
+
+    <!-- <div class="cifras">
+            <div>
+                2012
+                <div>
+                    Fundación
+                </div>
             </div>
 
             <div>
-                <h2>EL CLUB EN CIFRAS</h2>
-                    <div class="cifras">
-                        <div>
-                            2012
-                        </div>
-                        <div>
-                            300+
-                        </div>
-                        <div>
-                            48
-                        </div>
-                        <div>
-                            6
-                        </div>
-                    </div>
-                    <div class="cifras-datos">
-                        <div>
-                            Fundación
-                        </div>
-                        <div>
-                            Socios Activos
-                        </div>
-                        <div>
-                            Observaciones/año
-                        </div>
-                        <div>
-                            Telescopios
-                        </div>
-                    </div>
+                300+
+                <div>
+                    Socios Activos
+                </div>
             </div>
 
-</body>
+            <div>
+                48
+                <div>
+                    Observaciones/año
+                </div>
+            </div>
+
+            <div>
+                6
+                <div>
+                    Telescopios
+                </div>
+            </div>
+    </div> -->
+
+    <div class="gen-cifras">
+      <h2>EL CLUB EN CIFRAS</h2>
+      <div class="cifras">
+        <div>2012</div>
+        <div>300+</div>
+        <div>48</div>
+        <div>6</div>
+      </div>
+      <div class="cifras-datos">
+        <div>Fundación</div>
+        <div>Socios Activos</div>
+        <div>Observaciones/año</div>
+        <div>Telescopios</div>
+      </div>
+    </div>
+
+    <div class="gen-video">
+      <h1>Video</h1>
+      <div class="video">
+        <div></div>
+        <div>
+          <iframe
+            width="1500px"
+            height="415"
+            src="https://www.youtube.com/embed/TdJHUGJrlPU?si=3fAUuIs_eDZEAqJl"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
