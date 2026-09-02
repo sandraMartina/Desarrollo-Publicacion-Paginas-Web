@@ -9,8 +9,9 @@ header{
 }
 
 .nav-menu{
-     position: sticky; top: 21%;
+     position: sticky; top: 20%;
      z-index: 2;
+
 }
 
 
@@ -113,8 +114,8 @@ header{
 }
 
 .participar:hover{
-    background-color: aqua;
-    color: black;
+    background-color: darkcyan;
+    color: white;
     font-size: large;
 }
 
@@ -148,10 +149,14 @@ header{
     flex-basis: 10px;
 }
 
-s
+
 .gen-cifras{
     margin: 10% 0%;
 }
+
+
+
+
 
 .cifras{
     padding: 20px;
@@ -166,9 +171,7 @@ s
     width: 100%;
 }
 
-.gen-video{
-    font-size: large;
-}
+
 
 .gen-video h1::after{
     content: "⯈";
@@ -182,15 +185,68 @@ s
 } */
 
 .video div:first-child{
-    flex-basis: 20%;
+    width: 20%;
     background-color: darkgoldenrod;
     
 }
 
-.video iframe:first-child{
-    flex-basis: auto;
+.video div:last-child{
+    width: 100%;
+}
+
+
+@media (max-width: 1024px) {
+
+    .cifras {
+        background-color: aqua;
+        color: black;
+    } 
+
+    .cifras:hover {
+        font-family: monospace;
+    }
+
+    .cifras-datos {
+        background-color: aquamarine;
+        color: black;
+    }
+    .cifras-datos:hover{
+        font-family: cursive;
+    }
+}
+
+.video div:last-child{
+    width: 100%;
+}
+
+
+@media (max-width: 390px) {
+
+    .nav-menu{
+     position: sticky; top: 28%;
+     z-index: 2;
+
+}
+    .head > img {
+        position: relative;
+        background-color: aliceblue; 
+        padding-bottom: 30px; 
+    } 
+    
+    .head p {
+        font-family: cursive;
+        position: absolute;
+        font-size: 12px;
+        left: 0; right: 0; bottom: 0;
+    } 
+
+  .head {
+        background-color: aliceblue;
+    } 
+
     
 }
+
 
 /* CODE FOR "Quienes Somos" */
 

@@ -1,0 +1,31 @@
+
+.gneral-container{
+    border: 1px solid;
+    margin: 2%;
+}
+
+.new-container{
+    border: 1px solid;
+    margin: 2%;
+}
+
+.new-row{
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    border: 1px solid red;
+}
+
+
+/* with max, were saying that when
+we arriba to that size make this
+changes */
+@media (max-width: 768px) {
+
+    .new-row {
+        flex-direction: column;
+    } 
+
+}

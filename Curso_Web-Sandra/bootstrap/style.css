@@ -1,0 +1,46 @@
+
+.meet-the-world{
+    font-style: italic;
+}
+.mine{
+    background-color: aqua;
+}
+
+.change-color-thum{
+    background-color: aquamarine;
+}
+
+.forest{
+    background-color: antiquewhite;
+}
+
+.cursiva-text{
+    font-style: oblique;
+    color: darkslategray;
+}
+
+.content-forest{
+    font-family: oblique;
+}
+
+.vibes{
+    font-family: Great Vibes;
+    font-weight: bold;
+}
+.clear{
+    font-family: Great Vibes;
+   font-size: x-large;
+}
+
+.list{
+    color: darkred;
+}
+
+.bold-text{
+    color: darkgreen;
+}
+
+.to-top{
+    background-color: #7f8c8d;
+    color: chartreuse;
+}

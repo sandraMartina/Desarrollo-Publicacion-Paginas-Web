@@ -1,0 +1,1077 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Another examples</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- ############## MY NAVBAR #####################-->
+    <header>
+      <div class="px-3 py-2 text-bg-dark border-bottom">
+        <div class="container">
+          <div
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+          >
+            <a
+              href="/"
+              class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
+            >
+              <svg
+                class="bi me-2"
+                width="40"
+                height="32"
+                role="img"
+                aria-label="Bootstrap"
+              >
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <ul
+              class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small"
+            >
+              <li>
+                <a href="#" class="nav-link text-secondary">
+                  <svg
+                    class="bi d-block mx-auto mb-1"
+                    width="24"
+                    height="24"
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#home"></use>
+                  </svg>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg
+                    class="bi d-block mx-auto mb-1"
+                    width="24"
+                    height="24"
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#speedometer2"></use>
+                  </svg>
+                  Dashboard
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg
+                    class="bi d-block mx-auto mb-1"
+                    width="24"
+                    height="24"
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#table"></use>
+                  </svg>
+                  Orders
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg
+                    class="bi d-block mx-auto mb-1"
+                    width="24"
+                    height="24"
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#grid"></use>
+                  </svg>
+                  Products
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg
+                    class="bi d-block mx-auto mb-1"
+                    width="24"
+                    height="24"
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#people-circle"></use>
+                  </svg>
+                  Customers
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="px-3 py-2 border-bottom mb-3">
+        <div class="container d-flex flex-wrap justify-content-center">
+          <form
+            class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto"
+            role="search"
+          >
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
+          <div class="text-end">
+            <button type="button" class="btn btn-light text-dark me-2">
+              Login
+            </button>
+            <button type="button" class="btn btn-primary">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ############## SIDEBAR + MAIN #####################-->
+
+    <div class="d-flex">
+      <!-- SIDEBAR -->
+      <!-- Put your sidebar content here -->
+      <div
+        class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark"
+        style="width: 280px"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+        >
+          <svg
+            class="bi pe-none me-2"
+            width="40"
+            height="32"
+            aria-hidden="true"
+          >
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">Sidebar</span>
+        </a>
+        <hr />
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">
+              <svg
+                class="bi pe-none me-2"
+                width="16"
+                height="16"
+                aria-hidden="true"
+              >
+                <use xlink:href="#home"></use>
+              </svg>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-white">
+              <svg
+                class="bi pe-none me-2"
+                width="16"
+                height="16"
+                aria-hidden="true"
+              >
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              Dashboard
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-white">
+              <svg
+                class="bi pe-none me-2"
+                width="16"
+                height="16"
+                aria-hidden="true"
+              >
+                <use xlink:href="#table"></use>
+              </svg>
+              Orders
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-white">
+              <svg
+                class="bi pe-none me-2"
+                width="16"
+                height="16"
+                aria-hidden="true"
+              >
+                <use xlink:href="#grid"></use>
+              </svg>
+              Products
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-white">
+              <svg
+                class="bi pe-none me-2"
+                width="16"
+                height="16"
+                aria-hidden="true"
+              >
+                <use xlink:href="#people-circle"></use>
+              </svg>
+              Customers
+            </a>
+          </li>
+        </ul>
+        <hr />
+        <div class="dropdown">
+          <a
+            href="#"
+            class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="assets/a.jpg"
+              alt=""
+              width="32"
+              height="32"
+              class="rounded-circle me-2"
+            />
+            <strong>mdo</strong>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+            <li><a class="dropdown-item" href="#">New project...</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MAIN -->
+      <!-- Put your main content here -->
+      <main class="container">
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary mine" >
+          <div class="col-lg-6 px-0 ">
+            <h1 class="display-4 fst-italic">Meet the world!!</h1>
+            <p class="lead my-3 meet-the-world">
+              Forests, rivers, and mountain ridges hold quiet lessons that
+              no screen can teach. Every trail we log and every species we
+              spot is a small act of paying attention to the world outside
+              our door, and a reminder of how much is still left to notice.
+            </p>
+            <p class="lead mb-0">
+              <a href="#blog-post" class="text-body-emphasis fw-bold"
+                >Continue reading...</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static forest">
+                <strong class="d-inline-block mb-2 text-primary-emphasis"
+                  >Forest</strong
+                >
+                <h3 class="mb-0">A canopy</h3>
+                <div class="mb-1 text-body-secondary">Nov 12</div>
+                <p class="card-text mb-auto cursiva-text">
+                  A walk through a stand of centuries-old trees, and what
+                  their rings and root systems can tell us about resilience.
+                </p>
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue reading
+                  <svg class="bi" aria-hidden="true">
+                    <use xlink:href="#chevron-right"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img
+                    src="assets/Canopy.jpg"
+                    alt="Old-growth forest canopy"
+                    class="col-auto d-none d-lg-block"
+                    style="width: 200px; height: 250px; object-fit: cover;"
+                    />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static forest">
+                <strong class="d-inline-block mb-2 text-success-emphasis"
+                  >Wildlife</strong
+                >
+                <h3 class="mb-0">Migration Season</h3>
+                <div class="mb-1 text-body-secondary">Nov 11</div>
+                <p class="mb-auto cursiva-text">
+                  Notes from a week spent watching birds move south, and the
+                  wetlands they depend on to make the journey.
+                </p>
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue reading
+                  <svg class="bi" aria-hidden="true">
+                    <use xlink:href="#chevron-right"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                  <img
+                    src="assets/migrationImg.jpg"
+                    alt="Old-growth forest canopy"
+                    class="col-auto d-none d-lg-block"
+                    style="width: 200px; height: 250px; object-fit: cover;"
+                    />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-5">
+          <div class="col-md-8">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom">
+              From the Field
+            </h3>
+            <article class="blog-post">
+              <h2 class="display-5 link-body-emphasis mb-1 vibes">
+                A morning in the pine forest
+              </h2>
+              <p class="blog-post-meta">
+                January 1, 2021 by <a href="#">Mark</a>
+              </p>
+              <p class="content-forest">
+                There's a particular quiet that settles over a pine forest
+                just after sunrise, before the wind picks up and the birds
+                get loud. This post walks through what to look, listen, and
+                smell for on an early trail.
+              </p>
+              <hr />
+              <p class="content-forest">
+                Dew still clings to the needles underfoot, and the light
+                comes through the canopy in thin, shifting bands. Even a
+                short walk at this hour rewards patience, so we've tried to
+                capture that feeling here, along with a few practical notes
+                on gear and pacing for anyone planning a similar outing.
+              </p>
+              <h2 class="vibes">Words worth carrying</h2>
+              <p>A thought that stayed with us on this trip:</p>
+              <blockquote class="blockquote">
+                <p class="vibes clear">In every walk with nature, one receives far more than he seeks.</p>
+              </blockquote>
+              <p>
+                It's a line we kept coming back to on the descent, when the
+                trail opened into a clearing and the whole valley came into
+                view. Moments like that are the reason we keep coming back
+                to the same stretch of forest, season after season..
+              </p>
+              <h3>What to pack</h3>
+              <p>
+                A short trip doesn't need much, but a few things make the
+                difference between a comfortable hike and a miserable one.
+                Here's what we bring on most day hikes:
+              </p>
+              <ul class="list">
+                <li>Layered clothing for shifting mountain weather</li>
+                <li>A field notebook and a pair of compact binoculars</li>
+                <li>More water than you think you'll need</li>
+              </ul>
+              <p>And a rough order for the day itself:</p>
+              <ol class="list">
+                <li>Start before sunrise to catch the forest waking up</li>
+                <li>Take the ridge trail for the best canopy views</li>
+                <li>Rest by the creek before heading back down</li>
+              </ol>
+              <p>A few terms that come up often in field notes:</p>
+              <dl>
+                <dt class="bold-text">Understory</dt>
+                <dd>
+                  The layer of shrubs and small plants growing beneath a
+                  forest's main canopy
+                </dd>
+                <dt class="bold-text">Watershed</dt>
+                <dd>An area of land that drains into a single river or lake</dd>
+                <dt class="bold-text">Canopy</dt>
+                <dd>
+                  The uppermost layer of branches and leaves formed by a
+                  forest's tallest trees
+                </dd>
+              </dl>
+              <h2 class="vibes">Reading the trail</h2>
+              <p>
+                Learning to notice small details in the landscape takes
+                practice. A few things worth training your eye for:
+              </p>
+              <ul>
+                <li>
+                  <strong>Animal tracks</strong>,  pressed into soft mud near
+                  streams, often reveal more activity than you'd expect.
+                </li>
+                <li>
+                  <strong><em>Bird calls</em></strong>, once you learn a handful, turn a
+                  silent-seeming forest into a busy one.
+                </li>
+                <li>
+                  <strong>Lichen growth</strong>, like the pale green patches on north-facing
+                  bark, can help with orientation when the sky is overcast.
+                </li>
+                <li>
+                  <strong>Fallen logs</strong>, left undisturbed, become homes for insects,
+                  fungi, and small mammals over many seasons.
+                </li>
+                <li>
+                  Water clarity in a stream often signals the health of
+                  everything living upstream of it.
+                </li>
+              </ul>
+              <p>
+               None of this requires special equipment, just a slower pace
+                and a willingness to stop often.
+              </p>
+              <h2 class="vibes">Why we keep a field journal</h2>
+              <p>
+                Writing things down, even briefly, changes how closely you
+                pay attention. A short entry after each hike is often enough
+                to notice patterns across a season that would otherwise slip
+                by unremarked.
+              </p>
+              <h3 class="vibes">Getting started</h3>
+              <p>
+                You don't need any special training to begin. A notebook, a
+                pencil, and a regular trail are enough to start building a
+                record of the seasons as they change around you..
+              </p>
+              <pre><code>Date, location, weather, species spotted</code></pre>
+              <p>
+                That's the whole template. Everything else is just detail
+                you add as you go.
+              </p>
+            </article>
+
+
+            <article class="blog-post">
+              <h2 class="display-5 link-body-emphasis mb-1 vibes">
+                Life along the riverbank
+              </h2>
+              <p class="blog-post-meta">
+                December 23, 2020 by <a href="#">Jacob</a>
+              </p>
+              <p>
+                Riverbanks are some of the busiest habitats around, packed
+                into a narrow strip of land where forest meets water. This
+                post covers what we found on a slow walk along one stretch
+                of shoreline over a single afternoon.
+              </p>
+              <blockquote>
+                <p>
+                  The river seemed almost <strong>alive</strong> with the
+                  sound of insects and moving water.
+                </p>
+              </blockquote>
+              <p>
+                Herons stood motionless in the shallows for long stretches,
+                waiting on fish we couldn't see. Dragonflies moved in short,
+                sharp bursts between the reeds, and every few minutes a fish
+                broke the surface to catch one mid-air.
+              </p>
+              <h3 class="vibes">What we counted</h3>
+              <p>A rough tally from the afternoon:</p>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Species</th>
+                    <th>Sightings</th>
+                    <th>Notes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Great blue heron</td>
+                    <td>3</td>
+                    <td>Fishing near the bend</td>
+                  </tr>
+                  <tr>
+                    <td>Painted turtle</td>
+                    <td>7</td>
+                    <td>Basking on a fallen log</td>
+                  </tr>
+                  <tr>
+                    <td>Dragonfly</td>
+                    <td>12+</td>
+                    <td>Too many to count precisely
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>Total</td>
+                    <td>22+</td>
+                    <td></td>
+                  </tr>
+                </tfoot>
+              </table>
+              <p>
+                A single afternoon on one short stretch of river, and still
+                more species than we could keep track of..
+              </p>
+            </article>
+
+
+            <article class="blog-post">
+              <h2 class="display-5 link-body-emphasis mb-1 vibes">New trail added</h2>
+              <p class="blog-post-meta">
+                December 14, 2020 by <a href="#">Chris</a>
+              </p>
+              <p>
+                We've mapped and added a new loop trail through the eastern
+                ridge, covering a stretch of mixed forest that's been closed
+                to the public for the past two seasons while it recovered
+                from storm damage.
+              </p>
+              <ul>
+                <li>Roughly 6 miles round trip, moderate difficulty</li>
+                <li>Passes two overlooks with valley views</li>
+                <li>Best hiked in early morning during warmer months</li>
+              </ul>
+              <p>
+                Trail markers are freshly placed, but conditions can still
+                change quickly after rain, so check recent reports before
+                heading out..
+              </p>
+            </article>
+
+
+            <nav class="blog-pagination" aria-label="Pagination" >
+              <a class="btn btn-outline-primary rounded-pill to-top" href="#">Go to the TOP</a>
+              <a
+                class="btn btn-outline-secondary rounded-pill " href="#sections">Newer</a>
+            </nav>
+          </div>
+          <div class="col-md-4">
+            <div class="position-sticky" style="top: 2rem">
+              <div class="p-4 mb-3 bg-body-tertiary rounded">
+                <h4 class="fst-italic">About</h4>
+                <p class="mb-0">
+                  Customize this section to tell your visitors a little bit
+                  about your publication, writers, content, or something else
+                  entirely. Totally up to you.
+                </p>
+              </div>
+              <div>
+                <h4 class="fst-italic">Recent posts</h4>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                      href="#"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="bd-placeholder-img"
+                        height="96"
+                        preserveAspectRatio="xMidYMid slice"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="100%" height="100%" fill="#777"></rect>
+                      </svg>
+                      <div class="col-lg-8">
+                        <h6 class="mb-0">Example blog post title</h6>
+                        <small class="text-body-secondary"
+                          >January 15, 2024</small
+                        >
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                      href="#"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="bd-placeholder-img"
+                        height="96"
+                        preserveAspectRatio="xMidYMid slice"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="100%" height="100%" fill="#777"></rect>
+                      </svg>
+                      <div class="col-lg-8">
+                        <h6 class="mb-0">This is another blog post title</h6>
+                        <small class="text-body-secondary"
+                          >January 14, 2024</small
+                        >
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                      href="#"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="bd-placeholder-img"
+                        height="96"
+                        preserveAspectRatio="xMidYMid slice"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="100%" height="100%" fill="#777"></rect>
+                      </svg>
+                      <div class="col-lg-8">
+                        <h6 class="mb-0">
+                          Longer blog post title: This one has multiple lines!
+                        </h6>
+                        <small class="text-body-secondary"
+                          >January 13, 2024</small
+                        >
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="p-4">
+                <h4 class="fst-italic">Archives</h4>
+                <ol class="list-unstyled mb-0">
+                  <li><a href="#">March 2021</a></li>
+                  <li><a href="#">February 2021</a></li>
+                  <li><a href="#">January 2021</a></li>
+                  <li><a href="#">December 2020</a></li>
+                  <li><a href="#">November 2020</a></li>
+                  <li><a href="#">October 2020</a></li>
+                  <li><a href="#">September 2020</a></li>
+                  <li><a href="#">August 2020</a></li>
+                  <li><a href="#">July 2020</a></li>
+                  <li><a href="#">June 2020</a></li>
+                  <li><a href="#">May 2020</a></li>
+                  <li><a href="#">April 2020</a></li>
+                </ol>
+              </div>
+              <div class="p-4">
+                <h4 class="fst-italic">Elsewhere</h4>
+                <ol class="list-unstyled">
+                  <li><a href="#">GitHub</a></li>
+                  <li><a href="#">Social</a></li>
+                  <li><a href="#">Facebook</a></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- ADDING CARDS TO THE MAIN -->
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom">Take a Look to our beautiful flowers</h2>
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url(&quot;assets/stock-p.jpg&quot;)"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Welcome!</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img
+                    src="assets/stock-p.jpg"
+                    alt="Bootstrap"
+                    width="32"
+                    height="32"
+                    class="rounded-circle border border-white"
+                  />
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    aria-label="Location"
+                  >
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Earth</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    aria-label="Duration"
+                  >
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>3d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url(&quot;assets/im1.jpg&quot;)"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Much longer title that wraps to multiple lines
+              </h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img
+                    src="https://github.com/twbs.png"
+                    alt="Bootstrap"
+                    width="32"
+                    height="32"
+                    class="rounded-circle border border-white"
+                  />
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    aria-label="Location"
+                  >
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Pakistan</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    aria-label="Duration"
+                  >
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>4d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url(&quot;assets/im2.jpeg&quot;)"
+          >
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Another longer title belongs here
+              </h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img
+                    src="https://github.com/twbs.png"
+                    alt="Bootstrap"
+                    width="32"
+                    height="32"
+                    class="rounded-circle border border-white"
+                  />
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    aria-label="Location"
+                  >
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>California</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    aria-label="Duration"
+                  >
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>5d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- badges -->
+
+    <div class="d-flex gap-2 justify-content-center py-5">
+      <span
+        class="badge d-flex align-items-center p-1 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill"
+      >
+        <img
+          class="rounded-circle me-1"
+          width="24"
+          height="24"
+          src="https://github.com/mdo.png"
+          alt=""
+        />
+        Primary
+        <span class="vr mx-2"></span>
+        <a href="#" aria-label="Delete primary"
+          ><svg class="bi" width="16" height="16" aria-hidden="true">
+            <use xlink:href="#x-circle-fill"></use></svg
+        ></a>
+      </span>
+      <span
+        class="badge d-flex align-items-center p-1 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill"
+      >
+        <img
+          class="rounded-circle me-1"
+          width="24"
+          height="24"
+          src="https://github.com/mdo.png"
+          alt=""
+        />
+        Secondary
+        <span class="vr mx-2"></span>
+        <a href="#" aria-label="Delete secondary"
+          ><svg class="bi" width="16" height="16" aria-hidden="true">
+            <use xlink:href="#x-circle-fill"></use></svg
+        ></a>
+      </span>
+      <span
+        class="badge d-flex align-items-center p-1 pe-2 text-success-emphasis bg-success-subtle border border-success-subtle rounded-pill"
+      >
+        <img
+          class="rounded-circle me-1"
+          width="24"
+          height="24"
+          src="https://github.com/mdo.png"
+          alt=""
+        />
+        Success
+        <span class="vr mx-2"></span>
+        <a href="#" aria-label="Delete success"
+          ><svg class="bi" width="16" height="16" aria-hidden="true">
+            <use xlink:href="#x-circle-fill"></use></svg
+        ></a>
+      </span>
+      <span
+        class="badge d-flex align-items-center p-1 pe-2 text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-pill"
+      >
+        <img
+          class="rounded-circle me-1"
+          width="24"
+          height="24"
+          src="https://github.com/mdo.png"
+          alt=""
+        />
+        Danger
+        <span class="vr mx-2"></span>
+        <a href="#" aria-label="Delete danger"
+          ><svg class="bi" width="16" height="16" aria-hidden="true">
+            <use xlink:href="#x-circle-fill"></use></svg
+        ></a>
+      </span>
+      <span
+        class="badge d-flex align-items-center p-1 pe-2 text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-pill"
+      >
+        <img
+          class="rounded-circle me-1"
+          width="24"
+          height="24"
+          src="https://github.com/mdo.png"
+          alt=""
+        />
+        Warning
+        <span class="vr mx-2"></span>
+        <a href="#" aria-label="Delete warning"
+          ><svg class="bi" width="16" height="16" aria-hidden="true">
+            <use xlink:href="#x-circle-fill"></use></svg
+        ></a>
+      </span>
+      <span
+        class="badge d-flex align-items-center p-1 pe-2 text-info-emphasis bg-info-subtle border border-info-subtle rounded-pill"
+      >
+        <img
+          class="rounded-circle me-1"
+          width="24"
+          height="24"
+          src="https://github.com/mdo.png"
+          alt=""
+        />
+        Info
+        <span class="vr mx-2"></span>
+        <a href="#" aria-label="Delete info"
+          ><svg class="bi" width="16" height="16" aria-hidden="true">
+            <use xlink:href="#x-circle-fill"></use></svg
+        ></a>
+      </span>
+      <span
+        class="badge d-flex align-items-center p-1 pe-2 text-light-emphasis bg-light-subtle border border-dark-subtle rounded-pill"
+      >
+        <img
+          class="rounded-circle me-1"
+          width="24"
+          height="24"
+          src="https://github.com/mdo.png"
+          alt=""
+        />
+        Light
+        <span class="vr mx-2"></span>
+        <a href="#" aria-label="Delete light"
+          ><svg class="bi" width="16" height="16" aria-hidden="true">
+            <use xlink:href="#x-circle-fill"></use></svg
+        ></a>
+      </span>
+      <span
+        class="badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-dark-subtle border border-dark-subtle rounded-pill"
+      >
+        <img
+          class="rounded-circle me-1"
+          width="24"
+          height="24"
+          src="https://github.com/mdo.png"
+          alt=""
+        />
+        Dark
+        <span class="vr mx-2"></span>
+        <a href="#" aria-label="Delete dark"
+          ><svg class="bi" width="16" height="16" aria-hidden="true">
+            <use xlink:href="#x-circle-fill"></use></svg
+        ></a>
+      </span>
+    </div>
+
+    <!-- footer -->
+
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3 sections">
+            <h5 class="sections">Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="email"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+        >
+          <p>© 2025 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#" aria-label="Instagram"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#" aria-label="Facebook"
+                ><svg class="bi" width="24" height="24" aria-hidden="true">
+                  <use xlink:href="#facebook"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
