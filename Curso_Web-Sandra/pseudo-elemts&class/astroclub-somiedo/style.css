@@ -311,24 +311,72 @@ header{
     
 }
 
+@media (max-width: 480px ){
+    .imgandText{
+        flex-direction: column;
+    }
+
+    .imgandText > div:first-child {
+        flex: none;
+        width: 100%;
+    }
+
+      .grid-cards{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* changin the background when is a phone during night */
+
+@media (prefers-color-scheme: dark){
+     .head > img {
+        position: relative;
+        background-color: black; 
+        padding-bottom: 30px; 
+    } 
+     .head{
+
+        background-color: black; 
+        color: white;
+        padding-bottom: 30px; 
+    }
+     
+    .who-we-are, .who-we-are h2, .back-color,
+    .imgandText > div:nth-child(2) {
+        background-color: black;
+        color: white;
+    }
+    
+}
 
 .imgandText{
     display: flex;
+    width: 100%;
 }
 
-.imgandText > div > img {
+.imgandText > div:first-child {
     /* styles */
-        background-color: aqua;
-        flex-basis: 20%;
-        /* height: 300px; */
+        flex: 0 0 20%;
 }
 
-.imgandText > div:nth-child(2)  {
+.imgandText > div:first-child img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+}
+
+.imgandText > div:last-child  {
     /* styles */
-    background-color: rgb(233, 220, 186);
-        padding: 50px    ;
-        font-size: 2em;
-        flex-basis: 80%;
+        background-color: rgb(233, 220, 186);
+        padding: 40px  ;
+        font-size: 30px;
+
+        box-sizing: border-box;
+        flex: 0 0 80%;
+   
 }
 
 
