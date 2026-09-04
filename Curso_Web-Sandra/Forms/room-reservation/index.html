@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="../registroUsuario/style.css">
+</head>
+<body class="reservation">
+    
+    <div class="reservation">
+        <h1>Room reservation</h1>
+            <form action="response.html">
+
+                <fieldset>
+                    <legend>When</legend>
+
+                        <label for="date"> Date of the event: </label>
+                        <input type="date" name="date" id="date" min="2026-01-01" required>
+                        <br><br>    
+                        
+                        <label for="time"> Start time: </label>
+                        <input type="time" name="time" id="time" />
+                        <br/><br/>
+
+                        <label for="dateMonth">Date and time of confirmation: </label>
+                        <input type="datetime-local" name="dateMonth" id="dateMonth">
+                         <br /><br />
+
+                        <label for="month">Favourite month for current reservation</label>
+                        <input type="month" name="month" id="month" >
+                        <br /><br />    
+                        
+                        <label for="week">Reserved week for maintenance</label>
+                        <input type="week" name="week" id="week" >
+                        <br /><br /> 
+                        
+                </fieldset>
+
+                <fieldset>
+                    <legend>Where and How</legend>
+
+                        <label for="room">Room: </label>
+                        <select name="room" id="room" required>
+                            <option value="empty">--Choose a Room--</option>
+                            <optgroup label="Ground Floor">
+                                <option value="roble"> Room Roble(10 people)</option>
+                                <option value="olivo">Room Olivo(20 people)</option>
+                            </optgroup>
+                            <optgroup label="First Floor">
+                                <option value="pino">Room Pino(8 people)</option>
+                                <option value="encina">Room Encina(30 people)</option>
+                            </optgroup>
+                        </select>
+                        <br><br>
+
+                        <label for="assis">Number of assistante: </label>
+                        <input type="number" name="assis" id="assis" min="0" max="30" step="10">
+
+                        <br><br>
+                        <label for="color">Decorative Color of the room: </label>
+                        <input type="color" name="color" id="color">
+
+                        <br><br>
+
+                        <p>Additional services</p>
+                            <label>
+                                <input type="checkbox" name="service" value="catering" /> Catering
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="service" value="proyector" checked /> Proyector
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="service" value="equipo" />Equipo de sonido
+                            </label>
+                            <br><br>
+                            
+                      
+
+                </fieldset>
+
+                            <div class="buttns">
+                                <button type="submit" class="room"> Confirm</button>
+                                <button type="reset" class="eraser">Start again</button>            
+                            </div>
+
+            </form>
+    </div>
+</body>
+</html>

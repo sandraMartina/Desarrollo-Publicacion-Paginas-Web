@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="../../registroUsuario/style.css">
+</head>
+<body class="formtwo">
+    
+
+
+    <div class="form2">
+                <h1>Form 2- Survey</h1>
+        <form action="response.html">
+
+            <fieldset class="f1">
+                <legend class="first1">Your Satisfaction</legend>
+                
+                    <label for="satisfaction">General Satisfaction of the Service: </label> <br>
+                    <input type="radio" name="satisfaction" value="1" id="satisfaction">1
+                    <input type="radio" name="satisfaction" value="2" id="satisfaction">2
+                    <input type="radio" name="satisfaction" value="3" id="satisfaction">3
+                    <input type="radio" name="satisfaction" value="4" id="satisfaction">4
+                    <input type="radio" name="satisfaction" value="5" id="satisfaction">5
+                    <br><br>
+
+                    <p>Which service have you use?</p>
+                    <label>
+                        <input type="checkbox" name="service" value="soporte" checked/> Technical Support
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="service" value="Sales" /> Sales
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="service" value="po" />After Sales
+                    </label>
+                    <br><br>
+                    <br><br>
+                    <label for="levelSatis">Level of Satisfaction (0 a 10): </label>
+                    <progress max="20" value="10"></progress> 
+                    <p class="sizeCar">0 = Nada Satisfecho --------- 10 = Totalmente satisfecho</p>
+                             
+    
+            </fieldset>
+
+            <fieldset class="f2">
+                <legend class="sec2">Details and Reviews</legend>
+
+                        <label for="prefix">Country:</label>
+                            <select name="choose" id="choose" multiple >
+                                <option value="empty">----Select an Option---</option>
+                                <option value="basico">Plan básico</option>
+                                <option value="pro">Plan pro</option>
+                                <option value="company">Plan empresas</option>
+                                <option value="extra-storage">Almacenamiento extra</option>
+                            </select>
+                            <p class="sizeCar">Ctrl/Cmd + click para seleccionar varias opciones</p>
+
+                            <br><br>
+
+                            <label for="text">Leave us how we can improve:</label><br>
+                            <textarea 
+                                name="text" 
+                                id="text"
+                                rows="14"
+                                cols="66"
+                                maxlength="50"
+                                minlength="1"
+                                placeholder="Tell us what we should improve "
+                            ></textarea>
+                            <br> <br>
+                            <label for="surveyref">Reference of the Surver:</label>
+                            <input type="surveyref" name="surveyref" id="surveyref" value="SUR-2026-0845" readonly> Campo de solo lectura
+                            <br><br>
+                            <label for="inhability">Exclusive Code (staff allow only):</label>
+                            <input type="inhability" name="inhability" id="inhability" value="Ok" disabled> Inhability field
+                            <br><br>
+                            <label for="barraProgreso">Response of the survey until now: </label>
+                                <progress max="100" value="45"></progress>
+                                <p class="sizeCar">45 of 100 people surveyed</p>
+            </fieldset>
+
+
+            <div class="buttns">
+                <button type="submit" class="survey"> Send Survey</button>
+                <button type="reset" class="eraseform">Start again</button>            
+            </div>
+
+
+        </form>
+
+       </div>
+</body>
+</html>

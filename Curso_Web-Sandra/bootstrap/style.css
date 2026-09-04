@@ -44,3 +44,9 @@
     background-color: #7f8c8d;
     color: chartreuse;
 }
+
+.switzerland{
+    display: flex;
+    justify-content: flex-start;
+    color: aliceblue;
+}

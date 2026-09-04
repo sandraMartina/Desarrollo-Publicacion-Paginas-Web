@@ -1,0 +1,130 @@
+
+ /* code for the user registration  */
+
+ .userReg{
+    border-top: solid 5px darkblue;
+ }
+
+.form{
+    margin: 2% 1%;
+}
+
+.fiel1, .fiel2{
+    background-color: lightblue;
+    border-style: none;
+    border-left: 5px darkblue solid;
+}
+
+.fiel1 > legend, .fiel2 > legend{
+    background-color: white;
+    color: darkblue;
+    font-size: x-large;
+}
+
+.sizeCar{
+    margin-top: 0%;
+    color: rgb(78, 83, 88);
+}
+
+#name{
+    border-color: darkblue;
+}
+
+.fiel2{
+    margin-top: 2%;
+}
+
+#gender{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.register{
+    background-color: darkblue;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.erase{
+    background-color: white;
+    color: darkblue;
+    border-style: none;
+    border: 1px solid darkblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.buttns{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* code for exercise 2 */
+
+.formtwo{
+    background-color: lightsalmon;
+}
+
+
+.form2{
+    margin: 2%;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.f1, .f2{
+    background-color: rgb(248, 190, 163);
+    border: 2px dashed lightcoral;
+        margin-top: 2%;
+}
+
+.first1{
+    background-color: orangered;
+    color: aliceblue;
+ padding: 9px;
+        /*margin: 10px 0; */
+    border-radius: 20px;
+}
+
+.first1 progress{
+    color: orangered;
+
+}
+
+.sec2{
+    background-color: orangered;
+    color: aliceblue;
+    padding: 9px;
+    border-radius: 20px
+}
+
+.survey{
+    background-color:orangered;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.eraseform{
+    background-color: white;
+    color: orangered;
+    border-style: none;
+    border: 1px solid orangered;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+/* code for exercise 3 */
+
+.reservation{
+    background-color: darkblue;
+}
