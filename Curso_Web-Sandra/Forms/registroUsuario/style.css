@@ -126,5 +126,45 @@
 /* code for exercise 3 */
 
 .reservation{
-    background-color: darkblue;
+    background-color: rgb(5, 5, 42);
+    padding: 50px;
 }
+
+.reserv{
+    background-color: rgb(14, 14, 87);
+    padding: 20px;
+}
+
+.reserv h1, .when{
+    color: goldenrod;
+}
+
+.when{
+    font-size: x-large;
+}
+
+.white{
+    color: white;
+}
+
+#date, #time, #dateMonth, #month, #week, #room,
+#assis{
+    color: white;
+    background-color: rgb(10, 10, 56);
+    border-style: none;
+}
+
+.black{
+    padding: 10px;
+    background-color: goldenrod;
+    border-radius: 15px;
+}
+
+.bluee{
+    color: goldenrod;
+    background-color: rgb(10, 10, 56);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* code for exercise 4 */

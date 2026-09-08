@@ -8,40 +8,40 @@
 </head>
 <body class="reservation">
     
-    <div class="reservation">
+    <div class="reserv">
         <h1>Room reservation</h1>
             <form action="response.html">
 
                 <fieldset>
-                    <legend>When</legend>
+                    <legend class="when">When</legend>
 
-                        <label for="date"> Date of the event: </label>
+                        <label class="white" for="date"> Date of the event: </label><br>
                         <input type="date" name="date" id="date" min="2026-01-01" required>
                         <br><br>    
                         
-                        <label for="time"> Start time: </label>
+                        <label class="white" for="time"> Start time: </label> <br>
                         <input type="time" name="time" id="time" />
                         <br/><br/>
 
-                        <label for="dateMonth">Date and time of confirmation: </label>
+                        <label class="white" for="dateMonth">Date and time of confirmation: </label><br>
                         <input type="datetime-local" name="dateMonth" id="dateMonth">
                          <br /><br />
 
-                        <label for="month">Favourite month for current reservation</label>
+                        <label class="white" for="month">Favourite month for current reservation</label><br>
                         <input type="month" name="month" id="month" >
                         <br /><br />    
                         
-                        <label for="week">Reserved week for maintenance</label>
+                        <label class="white" for="week">Reserved week for maintenance</label>
                         <input type="week" name="week" id="week" >
                         <br /><br /> 
                         
                 </fieldset>
 
                 <fieldset>
-                    <legend>Where and How</legend>
+                    <legend class="when">Where and How</legend>
 
-                        <label for="room">Room: </label>
-                        <select name="room" id="room" required>
+                        <label class="white" for="room">Room: </label><br>
+                        <select class="white" name="room" id="room" required>
                             <option value="empty">--Choose a Room--</option>
                             <optgroup label="Ground Floor">
                                 <option value="roble"> Room Roble(10 people)</option>
@@ -54,25 +54,25 @@
                         </select>
                         <br><br>
 
-                        <label for="assis">Number of assistante: </label>
+                        <label class="white" for="assis">Number of assistante: </label>
                         <input type="number" name="assis" id="assis" min="0" max="30" step="10">
 
                         <br><br>
-                        <label for="color">Decorative Color of the room: </label>
+                        <label class="white" for="color">Decorative Color of the room: </label>
                         <input type="color" name="color" id="color">
 
                         <br><br>
 
-                        <p>Additional services</p>
-                            <label>
+                        <p class="white">Additional services</p>
+                            <label class="white">
                                 <input type="checkbox" name="service" value="catering" /> Catering
                             </label>
 
-                            <label>
+                            <label class="white">
                                 <input type="checkbox" name="service" value="proyector" checked /> Proyector
                             </label>
 
-                            <label>
+                            <label class="white">
                                 <input type="checkbox" name="service" value="equipo" />Equipo de sonido
                             </label>
                             <br><br>
@@ -82,8 +82,8 @@
                 </fieldset>
 
                             <div class="buttns">
-                                <button type="submit" class="room"> Confirm</button>
-                                <button type="reset" class="eraser">Start again</button>            
+                                <button class="black" type="submit" class="room"> Confirm reservation</button>
+                                <button class="bluee" type="reset" class="eraser">Start again</button>            
                             </div>
 
             </form>
