@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom T-shirt</title>
+    <link rel="stylesheet" href="../registroUsuario/style.css">
+</head>
+<body class="shirts">
+
+    <div>
+        <h1>Customs T-shirt</h1>
+
+        <form action="response.html">
+
+            <fieldset class="fiels">
+                <legend class="pur">Choose your T-shirt</legend>
+
+                <label for="size">Choose your size:</label><br>
+                <select name="size" id="size">
+                    <option value="s">S</option>
+                    <option value="m" selected>M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                </select><br><br>
+
+                <label for="color">Fabric Color:</label><br>
+                <input type="radio" name="color" id="color" value="blanco" checked>Blanco
+                <input type="radio" name="color" id="color" value="negro">Negro
+                <input type="radio" name="color" id="color" value="azul">Azul
+                <br><br>
+
+                <label for="col">Custom print color:</label><br>
+                <input type="color" name="col" id="col" value="goldenrod"><br><br>
+
+                <label for="extra">Extra:</label><br>
+                <input type="checkbox" name="extra" id="extra" value="nameP" checked>Name Personalized
+                <input type="checkbox" name="extra" id="extra" value="envioE">Express Send
+                <input type="checkbox" name="extra" id="extra" value="gift"> Gift wraping
+                <br><br>
+
+                <label for="addS">Additional size you may want:</label> <br>
+                <select name="addS" id="addS">
+                    <optgroup label="Adult">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                    </optgroup>
+                    <optgroup label="Child Size">
+                        <option value="8">8 years old</option>
+                        <option value="10">10 years old</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+
+            <fieldset class="fiels">
+                <legend class="pur">Order</legend>
+                
+                <label for="cant">Amount:</label><br>
+                <input type="number" name="cant" id="cant" min="0"><br><br>
+
+                <label for="price">Unit Price(€):</label><br>
+                <input type="number" name="price" id="price" value="19.99" readonly>
+                <p class="sizeC">This price is automatically</p> <br>
+
+                <label for="desc">Discount applied(%):</label><br>
+                <input type="range" name="desc" id="desc" disabled value="20">
+                <p class="sizeC">This discount is applied automatically, you cant change it</p> <br>
+
+                <label for="various">
+                    <input type="checkbox" name="checkbox" id="checkbox">Specials instructions
+                    <br>
+                    <textarea 
+                        name="texta" id="texta"
+                        minlength="5"
+                        maxlength="100"
+                        cols="40"
+                        rows="10"
+                        placeholder="Ex: Name personalized in the back"        
+                    ></textarea>
+                </label>
+                <p class="sizeC">Example of label, that contein more than one controls</p> <br>
+
+                <label for="fase">Manufacturing phases completed </label> <br>
+                <progress max="100" value="65" id="fase"></progress>
+                <p class="sizeC">3 of 5  phases completed</p> <br>
+            </fieldset>
+
+                    <div class="but">
+                        <button type="submit" class="sendS"> Send request</button>
+                        <button type="reset" class="eraseS"> Start again</button>            
+                    </div>
+
+        </form>
+
+
+    </div>
+    
+</body>
+</html>

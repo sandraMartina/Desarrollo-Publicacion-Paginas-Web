@@ -168,3 +168,127 @@
 }
 
 /* code for exercise 4 */
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: rgb(17, 73, 17);
+}
+
+.green{
+    color: rgb(17, 73, 17);
+    font-size: xx-large;
+}
+
+.request > div{
+    padding: 20px;
+}
+
+.contact{
+    padding: 20px;
+    margin: 30px 0;
+}
+
+#salary{
+    accent-color: rgb(17, 73, 17);
+
+}
+
+.send{
+    background-color:  rgb(17, 73, 17);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.eraseN{
+    color:  rgb(17, 73, 17);
+    background-color: white;
+    border-style: none;
+    border: 1px solid  rgb(17, 73, 17);
+    border-radius: 5px;
+}
+
+.request input,
+.request select,
+.request textarea {
+    width: 400px;
+    box-sizing: border-box;
+}
+
+/* i selected this optiones 
+    because if i applyed to everyone this ones too, 
+    and i changed apart because is more easy*/
+#dispo, #allow{
+    width: 20px;
+}
+
+
+
+/* code for exercise 5 */
+
+.shirts{
+    background-color: plum;
+}
+
+.shirts > div{
+    background-color: white;
+    margin: 30px;
+}
+.shirts input,
+.shirts select,
+.shirts progress{
+    width: 300px;
+    box-sizing: border-box;
+
+}
+
+#color, #extra, #checkbox{
+    width: 50px;
+}
+
+.sizeC{
+    margin-top: 0%;
+    color:rgb(172, 116, 172) ;
+}
+
+#fase{
+    accent-color: rgb(138, 101, 138);
+}
+
+.but{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pur{
+    padding: 5px 20px;
+    background-color: purple;
+    border-radius: 15px;
+    color: white;  
+}
+
+.fiels{
+    margin: 0px 20px 30px;
+}
+
+.sendS{
+    background-color:  rgb(80, 5, 80);
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+
+.eraseS{
+    color: rgb(80, 5, 80);
+    background-color: white;
+    border-style: none;
+    border: 1px solid rgb(80, 5, 80);
+    border-radius: 20px;
+    padding: 10px;
+
+
+}

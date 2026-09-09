@@ -10,22 +10,90 @@
 
     <div>
         <h1>Employee request</h1>
+        <hr>
 
-        <form action="destiny.html">
-            <fieldset>
-                <legend>Contact data</legend>
+        <form action="response.html">
+            <fieldset class="contact">
+                <legend class="green">Contact data</legend>
                 <label for="name1" >Full Name:</label> <br>
                 <input type="text" name="name" id="name1" placeholder="Ex: Sandra T"
                         min="3" max="40" size="20" ><br><br>
 
                 <label for="tel">Phone contact: </label> <br>   
-                <input type="tel" name="tel" id="tel">  
+                <input type="tel" name="tel" id="tel" min="0" max="15" placeholder="Ex: 734920425">  <br><br>
+
+                <label for="cv">CV (PDF or Word): </label><br>
+                <input type="file" name="cv" id="cv" accept=".pdf,.doc,.docx"><br><br>
+
+                <label for="foto">Add a photo(Optional): </label><br>
+                <input type="file" name="foto" id="foto" accept="image/*"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend class="green">Experience and Position</legend>
+                
+                <label for="position">Requested Position: </label><br>
+                <select name="position" id="position">
+                    <option value="choose"> --Choose a position-- </option>
+                    <optgroup label="Developer" >
+                        <option value="desarrollo" >Front-end Developer</option>
+                        <option value="desarrollo" >Front-end Developer</option>
+                    </optgroup>
+                    <optgroup label="Desing">
+                        <option value="design">Ux/Ui Designer</option>
+                    </optgroup>
+                </select><br><br>
+
+                <label for="dispo">Immediate Availability?: </label> <br>
+                <input type="radio" name="dispo" id="dispo" value="si">Sí
+                <input type="radio" name="dispo" id="dispo" value="no">No
+                <br><br>
+
+                <label for="years">Years of Experience: </label>
+                <br>
+                <input type="number" name="years" id="years" min="0" max="50"> <br> <br>
+
+                <label for="salary">Salary Expectention €: </label> <br>
+                <input type="range" name="salary" id="salary" min="15000" max="60000" step="1000"><br>
+                <p class="sizeCar">Between 15.000 € and 60.000 €  and by steps 1000€</p><br>
+                
+                <label for="education">Educatio level: </label><br>
+                <select name="education" id="education">
+                    <optgroup label="Compulsory Education">
+                        <option value="eso">ESO</option>
+                    </optgroup>
+                    <optgroup label="Superior Education">
+                        <option value="fp" selected>Professional Education</option>
+                        <option value="uni">College degree</option>
+                        <option value="master">Master</option>
+                    </optgroup>
+                </select>
+                <br><br>
+
+                <label for="status">Application status: </label> <br>
+                <select name="status" id="status" disabled>
+                    <option value="dis" selected >Pending Review</option>
+                </select>
+                <p class="sizeCar">Only the RH have access to this option</p><br><br>
+
+                <label for="comments">Additional improvement:</label><br>
+                        <textarea   name="comments" 
+                            id="comments"
+                            minlength="5"
+                            maxlength="1000"
+                            cols="55"
+                            rows="10"
+                            
+                        ></textarea><br><br>    
+                <input type="checkbox" name="allow" id="allow" required>Allow the correct use of my my personal data for this process:
             </fieldset>
 
 
-
+                    <div class="buttns">
+                        <button type="submit" class="send"> Registrarme</button>
+                        <button type="reset" class="eraseN"> Borrar Formulario</button>            
+                    </div>
         </form>
-
     </div>
     
 </body>
