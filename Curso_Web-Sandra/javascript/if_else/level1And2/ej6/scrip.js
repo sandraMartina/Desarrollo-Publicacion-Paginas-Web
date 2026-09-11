@@ -19,7 +19,7 @@ if(operator === "+"){
 }else if(operator === "/"){
     if(firstNumber === 0 || secNumber === 0){
         alert("Sorry we can't divide with Ceros")
-    }else{                   //i was having the rsult withaout else, which given me the infinity
+    }else{                   //i was having the rsult withaout else, which was given me the infinity
         alert(`The result is ${resultDivi}`)
     }
 }else{
