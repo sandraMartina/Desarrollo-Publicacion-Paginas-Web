@@ -1,4 +1,5 @@
 
+
  let weight = parseFloat(prompt("Please write your suitcase Weight (kg)"));
  let classUser = prompt("Please write if your traveling in: 'Economy' or 'Premium' class ").toLowerCase();
 
@@ -24,6 +25,8 @@
  }else{
      alert("Incorrect Class, specify the correct one")
  }
+
+
 
 
 //help with the ai
