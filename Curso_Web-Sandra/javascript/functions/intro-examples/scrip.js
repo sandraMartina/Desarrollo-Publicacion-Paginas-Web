@@ -65,4 +65,6 @@ while(counter < howManySum){
 }
     */
 
- alert(Math.round(43.88));
+let averageNote = parseFloat(prompt("Please write your note"))
+
+ alert(`Your note is Math.round(averageNote)`);
