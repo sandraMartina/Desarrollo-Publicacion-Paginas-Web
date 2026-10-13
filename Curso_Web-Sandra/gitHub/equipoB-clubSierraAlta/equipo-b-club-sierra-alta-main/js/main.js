@@ -3,7 +3,6 @@
 //                  scrip para el apartado de materiales
 //============================================================================
 
-
 let lista = document.getElementById("list");
 let listaMaterial = document.getElementById("listaMaterial");
 let resultado = document.getElementById("resultado");
@@ -64,46 +63,5 @@ function contar() {
 }
 
 lista.addEventListener("change", dificultad);
+resultado.addEventListener("click", contar);
 
-
-// let dificultadRuta = document.getElementById("dificultadRuta");
-// let lista = document.getElementById("list");
-// let listaMaterial = document.getElementById("listaMaterial")
-
-
-// const materiales = {
-//     facil: [
-//         "Calzado cómodo",
-//         "Agua (1L)",
-//         "Gorra",
-//         "Protector solar"
-//     ],
-//     media: [
-//         "Botas de montaña",
-//         "Agua (1.5L)",
-//         "Chaqueta impermeable",
-//         "Bastones",
-//         "Comida de ruta"
-//     ],
-//     dificil: [
-//         "Botas de montaña",
-//         "Agua (2L)",
-//         "Chaqueta impermeable",
-//         "Bastones",
-//         "Frontal",
-//         "Mapa y brújula",
-//         "Comida de ruta"
-//     ]
-// };
-
-// function dificultad(){
-//     listaMaterial.innerHTML = "";
-//     if (lista.value === "select") return;
-
-//     materiales[lista.value].forEach(function(item){
-//         let ul = document.createElement("ul");
-//     })
-        
-// }
-
-// lista.addEventListener("click", dificultad);
