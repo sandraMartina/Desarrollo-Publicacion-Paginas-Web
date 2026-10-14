@@ -63,5 +63,5 @@ function contar() {
 }
 
 lista.addEventListener("change", dificultad);
-resultado.addEventListener("click", contar);
+
 
